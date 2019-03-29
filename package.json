@@ -1,0 +1,26 @@
+{
+    "name": "WW-Shutter",
+    "version": "1.0.0",
+    "description": "Repositorio de una pagina web sencilla donde el cliente promocionara sus productos, sin embargo se utilizaran tecnologias que lo hacen interesante",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/2314-RAustin/WW-Shutter.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/2314-RAustin/WW-Shutter/issues"
+    },
+    "homepage": "https://github.com/2314-RAustin/WW-Shutter#readme",
+    "dependencies": {
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "express-ejs-layouts": "^2.5.0",
+        "path": "^0.12.7"
+    }
+}
