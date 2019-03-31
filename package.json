@@ -4,7 +4,7 @@
     "description": "Repositorio de una pagina web sencilla donde el cliente promocionara sus productos, sin embargo se utilizaran tecnologias que lo hacen interesante",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon src/index.js"
+        "dev": "node src/index.js"
     },
     "repository": {
         "type": "git",
