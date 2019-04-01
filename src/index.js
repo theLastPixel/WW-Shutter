@@ -39,7 +39,7 @@ app.get('/tiposShutter', (req, res) => {
 
 //Static Files
 app.use(express.static(path.join(__dirname, 'styles')));
-app.use(express.static(path.join(__dirname, 'styles')));
+app.use(express.static(path.join(__dirname, 'Layout')));
 
 //Server is listening
 app.listen(app.get('port'), () => {

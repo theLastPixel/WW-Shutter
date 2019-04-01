@@ -1,3 +1,7 @@
-.header {
-    color: red($color: #000000);
+.grid-total-header{
+    grid-row: 1 / 4;
+    grid-column: 1 / -1;
+    background: red;
+    display: grid;
+    grid-template: repeat(6,1fr) / repeat(40,1fr);
 }
