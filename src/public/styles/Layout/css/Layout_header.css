@@ -1,7 +1,6 @@
 .grid-total-header {
-    grid-row: 1 / 4;
-    grid-column: 1 / -1;
-    background: transparent;
-    display: grid;
-    grid-template: repeat(6, 1fr)/repeat(40, 1fr);
-}
+  grid-row: 1 / 4;
+  grid-column: 1 / -1;
+  z-index: 1;
+  display: grid;
+  grid-template: repeat(4, 1fr)/repeat(40, 1fr); }
