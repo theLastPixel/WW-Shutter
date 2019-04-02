@@ -12,3 +12,5 @@ npm run dev (Este comando ya esta en el package.json el cual se encarga de abrir
 PRUEBA EN LAPTOP AMD A8
 
 npm install -g express express-ejs-layouts path node-sass
+
+npm install -g  node-sass

@@ -1,12 +1,11 @@
-.contenedor-index{
+.contenedor-index {
     grid-row: 4 / 35;
     grid-column: 1 / -1;
     background: rgb(0, 0, 0);
     color: white;
     display: grid;
-    grid-template: repeat(20,1fr) / repeat(20,1fr);
-
-    h2{
+    grid-template: repeat(20, 1fr) / repeat(20, 1fr);
+    h2 {
         text-align: center;
         justify-content: center;
         justify-items: center;
