@@ -1,0 +1,54 @@
+.index {
+    color: black;
+}
+
+.bg-img {
+    position: relative;
+    grid-row: 1/21;
+    grid-column: 1/-1;
+    width: 100%;
+    background-image: url('/media/Imagenes/bg-shutters.jpg');
+    height: 100%;
+    background-size: cover;
+}
+
+.bg-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #bbbbbb, #000000);
+    opacity: .6;
+}
+
+.shutterstxt {
+    font-size: 1.5vw;
+    z-index: 1;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.582);
+    font-family: sans-serif;
+    grid-column: 4/6;
+    grid-row: 17/19;
+}
+
+.shadestxt {
+    font-size: 1.5vw;
+    z-index: 1;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.582);
+    font-family: sans-serif;
+    grid-column: 11/13;
+    grid-row: 17/19;
+}
+
+.blindstxt {
+    font-size: 1.5vw;
+    z-index: 1;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.582);
+    font-family: sans-serif;
+    grid-column: 17/19;
+    grid-row: 17/19;
+}
