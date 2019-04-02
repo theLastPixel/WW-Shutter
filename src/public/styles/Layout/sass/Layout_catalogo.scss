@@ -1,3 +1,6 @@
-.catalogo {
-    color: red($color: #000000);
+.container-catalogo {
+    grid-row: 3 / 35;
+    grid-column: 1 / -1;
+    background: rgb(0, 0, 0);
+    color: white;
 }
