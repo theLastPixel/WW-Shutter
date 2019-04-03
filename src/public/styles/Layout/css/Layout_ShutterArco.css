@@ -1,8 +1,19 @@
 .grid-total {
   height: 100vh; }
 
-.container-tipoShutters {
+.container-shutterArco {
   grid-row: 3 / 35;
   grid-column: 1 / -1;
-  background: black;
-  color: white; }
+  display: grid;
+  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+  .container-shutterArco .texto {
+    grid-row: 3 / 20;
+    grid-column: 1 / 20;
+    background: blue; }
+  .container-shutterArco .images {
+    grid-row: 3 / -1;
+    grid-column: 20 / -1;
+    background: red; }
+    .container-shutterArco .images .img {
+      width: 30%;
+      height: auto; }
