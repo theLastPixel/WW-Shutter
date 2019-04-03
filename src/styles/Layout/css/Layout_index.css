@@ -1,7 +1,7 @@
 .contenedor-index {
     grid-row: 4 / 35;
     grid-column: 1 / -1;
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
     display: grid;
     grid-template: repeat(20, 1fr)/repeat(20, 1fr);
@@ -15,8 +15,4 @@
     align-content: center;
     align-items: center;
     align-self: center;
-}
-
-.title h1 {
-    font-size: 3.2vw;
 }

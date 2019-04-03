@@ -23,45 +23,56 @@
     opacity: .6;
 }
 
-.shutterstxt {
-    font-size: 1.5vw;
-    z-index: 1;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    grid-column: 4/6;
-    grid-row: 17/19;
-}
-
-.shadestxt {
-    font-size: 1.5vw;
-    z-index: 1;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    grid-column: 10/12;
-    grid-row: 17/19;
-}
-
-.blindstxt {
-    font-size: 1.5vw;
-    z-index: 1;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    grid-column: 16/18;
-    grid-row: 17/19;
-}
-
-.title {
-    grid-row: 8/16;
-    grid-column: 7/16;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    z-index: 1;
-    color: white;
-}
-
 h1 {
     font-size: 3.2vw;
+}
+
+.carousel {
+    display: grid;
+    grid-template: repeat(20, 1fr)/repeat(20, 1fr);
+    grid-row: 1/21;
+    grid-column: 1/-1;
+}
+
+
+/* .carousel .item {
+    height: 300px;
+} */
+
+.carousel-inner {
+    grid-row: 1/21;
+    grid-column: 1/21;
+}
+
+.carousel-inner img {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-height: 780px;
+}
+
+.carousel-inner h5 {
+    position: relative;
+    bottom: 60px;
+    left: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+}
+
+.carousel-inner p {
+    position: relative;
+    bottom: 40px;
+    left: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1vw;
+}
+
+.logotipo {
+    grid-row: 6/12;
+    grid-column: 8/14;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 1;
 }
