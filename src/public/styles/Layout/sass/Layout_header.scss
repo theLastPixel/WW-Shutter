@@ -4,4 +4,9 @@
     z-index: 1;
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(40, 1fr);
+
+    .logotipo{
+        width: 15%;
+        height: auto;
+    }
 }
