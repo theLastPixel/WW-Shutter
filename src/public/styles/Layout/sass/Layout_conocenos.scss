@@ -1,6 +1,34 @@
+.grid-total {
+    height: 100vh;
+}
+
 .container-conocenos {
     grid-row: 3 / 35;
     grid-column: 1 / -1;
-    background: rgb(0, 0, 0);
-    color: white;
+    display: grid;
+    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+    .nosotros {
+        grid-row: 5 / 10;
+        grid-column: 8 / 32;
+        background: rgba(0, 0, 0, 0.315);
+        padding: 5px 5px 5px 5px;
+    }
+    .valores {
+        grid-row: 12 / 17;
+        grid-column: 8 / 32;
+        background: rgba(0, 0, 0, 0.315);
+        padding: 5px 5px 5px 5px;
+    }
+    .mision {
+        grid-row: 19 / 24;
+        grid-column: 8 / 32;
+        background: rgba(0, 0, 0, 0.315);
+        padding: 5px 5px 5px 5px;
+    }
+    .vision {
+        grid-row: 26 / 31;
+        grid-column: 8 / 32;
+        background: rgba(0, 0, 0, 0.315);
+        padding: 5px 5px 5px 5px;
+    }
 }
