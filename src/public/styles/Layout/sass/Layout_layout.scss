@@ -6,5 +6,4 @@ body {
 .grid-total {
     display: grid;
     grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-    height: 100vh;
 }
