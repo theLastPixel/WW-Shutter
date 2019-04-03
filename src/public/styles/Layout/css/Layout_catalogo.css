@@ -1,2 +1,8 @@
-.catalogo {
-  color: 0; }
+.grid-total {
+  height: 100vh; }
+
+.container-catalogo {
+  grid-row: 3 / 35;
+  grid-column: 1 / -1;
+  background: black;
+  color: white; }
