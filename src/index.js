@@ -33,8 +33,18 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-app.get('/tiposShutter', (req, res) => {
-    res.render('typeOfShutter');
+/*TIPOS DE SHUTTER*/
+app.get('/ShutterCorrediza', (req, res) => {
+    res.render('ShutterCorrediza');
+});
+app.get('/ShutterEstandar', (req, res) => {
+    res.render('ShutterEstandar');
+});
+app.get('/ShutterPuertaFrancesa', (req, res) => {
+    res.render('ShutterPuertaFrancesa');
+});
+app.get('/ShutterArco', (req, res) => {
+    res.render('ShutterArco');
 });
 
 //Static Files
