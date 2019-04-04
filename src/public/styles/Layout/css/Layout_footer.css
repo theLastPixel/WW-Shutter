@@ -13,10 +13,11 @@
     grid-column: 12 / 20; }
   .grid-total-footer .container-links {
     grid-row: 2 / 11;
-    grid-column: 22 / 30; }
+    grid-column: 20 / 27;
+    text-decoration: none; }
   .grid-total-footer .container-contact {
     grid-row: 2 / 11;
-    grid-column: 32 / 40; }
+    grid-column: 28 / 40; }
   .grid-total-footer .container-linea {
     grid-row: 11 / 12;
     grid-column: 2 / 39; }
@@ -26,5 +27,11 @@
     grid-row: 12 / 15;
     grid-column: 2 / 40; }
   .grid-total-footer .container-facebook {
-    grid-row: 12 / 15;
-    grid-column: 2 / 40; }
+    grid-row: 12 / 13;
+    grid-column: 36 / 37; }
+  .grid-total-footer .container-instagram {
+    grid-row: 12 / 13;
+    grid-column: 37 / 38; }
+  .grid-total-footer .container-twitter {
+    grid-row: 12 / 13;
+    grid-column: 38 / 39; }

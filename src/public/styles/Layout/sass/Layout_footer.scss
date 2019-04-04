@@ -15,11 +15,12 @@
     }
     .container-links {
         grid-row: 2 / 11;
-        grid-column: 22 / 30;
+        grid-column: 20 / 27;
+        text-decoration: none;
     }
     .container-contact {
         grid-row: 2 / 11;
-        grid-column: 32 / 40;
+        grid-column: 28 / 40;
     }
     .container-linea {
         grid-row: 11 / 12;
@@ -33,7 +34,15 @@
         grid-column: 2 / 40;
     }
     .container-facebook {
-        grid-row: 12 / 15;
-        grid-column: 2 / 40;
+        grid-row: 12 / 13;
+        grid-column: 36 / 37;
+    }
+    .container-instagram {
+        grid-row: 12 / 13;
+        grid-column: 37 / 38;
+    }
+    .container-twitter {
+        grid-row: 12 / 13;
+        grid-column: 38 / 39;
     }
 }
