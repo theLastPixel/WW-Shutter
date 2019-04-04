@@ -29,6 +29,10 @@ app.get('/contactanos', (req, res) => {
     res.render('contactanos');
 });
 
+app.get('/galeria', (req, res) => {
+    res.render('galeria');
+});
+
 app.get('/', (req, res) => {
     res.render('index');
 });
