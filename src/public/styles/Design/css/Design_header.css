@@ -1,10 +1,27 @@
 .navbar {
     grid-row: 1/2;
     grid-column: 1/-1;
-    box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75);
+    /* box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75); */
     z-index: 999;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: .8vw;
 }
 
 .dropdown:hover>.dropdown-menu {
     display: block;
+}
+
+.numcontact-txt {
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: .9vw;
+}
+
+nav li:hover {
+    text-decoration: none;
+    border-top: 3px solid;
+    border-color: rgb(255, 123, 0);
+    transition: 0.5s;
 }
