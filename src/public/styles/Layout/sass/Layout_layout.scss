@@ -1,10 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .grid-total {
     display: grid;
     grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-    height: 100vh;
 }

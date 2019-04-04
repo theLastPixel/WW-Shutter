@@ -1,6 +1,48 @@
 .grid-total-footer {
-    grid-row: 35 / -1;
+    grid-row: 30 / -1;
     grid-column: 1 / -1;
     display: grid;
-    background: rgb(145, 143, 143);
+    grid-template: repeat(15, 1fr) / repeat(40, 1fr);
+    background: rgb(30, 30, 32);
+    color: white;
+    .container-company {
+        grid-row: 2 / 11;
+        grid-column: 2 / 10;
+    }
+    .container-product {
+        grid-row: 2 / 11;
+        grid-column: 12 / 20;
+    }
+    .container-links {
+        grid-row: 2 / 11;
+        grid-column: 20 / 27;
+        text-decoration: none;
+    }
+    .container-contact {
+        grid-row: 2 / 11;
+        grid-column: 28 / 40;
+    }
+    .container-linea {
+        grid-row: 11 / 12;
+        grid-column: 2 / 39;
+        hr {
+            background: rgb(255, 255, 255);
+        }
+    }
+    .container-copyRight {
+        grid-row: 12 / 15;
+        grid-column: 2 / 40;
+    }
+    .container-facebook {
+        grid-row: 12 / 13;
+        grid-column: 36 / 37;
+    }
+    .container-instagram {
+        grid-row: 12 / 13;
+        grid-column: 37 / 38;
+    }
+    .container-twitter {
+        grid-row: 12 / 13;
+        grid-column: 38 / 39;
+    }
 }
