@@ -1,9 +1,7 @@
 body {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
 .grid-total {
-    display: grid;
-    grid-template: repeat(40, 1fr)/repeat(40, 1fr);
-}
+  display: grid;
+  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
