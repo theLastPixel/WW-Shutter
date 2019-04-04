@@ -1,5 +1,8 @@
 .grid-total-footer {
-  grid-row: 35 / -1;
-  grid-column: 1 / -1;
-  display: grid;
-  background: #918f8f; }
+    grid-row: 30 / -1;
+    grid-column: 1 / -1;
+    display: grid;
+    background: #2e2e2e;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
