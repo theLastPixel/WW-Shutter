@@ -1,0 +1,10 @@
+.grid-total {
+    height: 120vh;
+}
+
+.container-galeria {
+    grid-row: 3 / 35;
+    grid-column: 1 / -1;
+    background: black;
+    color: white;
+}
