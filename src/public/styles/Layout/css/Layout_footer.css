@@ -1,4 +1,5 @@
 .grid-total-footer {
+    grid-row: 30 / -1;
     grid-row: 35 / -1;
     grid-column: 1 / -1;
     display: grid;

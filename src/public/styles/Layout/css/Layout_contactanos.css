@@ -1,16 +1,22 @@
 .grid-total {
-  height: 100vh; }
+    height: 120vh;
+}
 
 .container-contactanos {
-  grid-row: 3 / 35;
-  grid-column: 1 / -1;
-  background: rgba(0, 0, 0, 0.185);
-  display: grid;
-  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
-  .container-contactanos .container-contactanos-informacion {
+    grid-row: 3 / 35;
+    grid-column: 1 / -1;
+    background: rgba(0, 0, 0, 0.185);
+    display: grid;
+    grid-template: repeat(40, 1fr)/repeat(40, 1fr);
+}
+
+.container-contactanos .container-contactanos-informacion {
     padding: 10px 10px 10px 10px;
     grid-row: 2 / 10;
-    grid-column: 5 / 40; }
-  .container-contactanos .container-contactanos-mapa {
+    grid-column: 5 / 40;
+}
+
+.container-contactanos .container-contactanos-mapa {
     grid-row: 13 / 35;
-    grid-column: 5 / 15; }
+    grid-column: 5 / 15;
+}

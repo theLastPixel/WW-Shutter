@@ -1,8 +1,8 @@
-  grid-row: 1 / 4;
-  grid-column: 1 / -1;
-  z-index: 1;
-  display: grid;
-  grid-template: repeat(4, 1fr)/repeat(40, 1fr); }
-  .grid-total-header .logotipo {
-    width: 15%;
-    height: auto; }
+
+.grid-total-header {
+    grid-row: 1 / 4;
+    grid-column: 1 / -1;
+    z-index: 1;
+    display: grid;
+    grid-template: repeat(4, 1fr)/repeat(40, 1fr);
+}
