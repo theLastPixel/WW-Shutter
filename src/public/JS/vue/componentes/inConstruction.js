@@ -6,7 +6,7 @@ Vue.component('inConstruccion', {
         <br>
         <h1 class="d-flex justify-content-center">Modulo contactanos en construccion</h1>
             <div class="d-flex justify-content-center align-items-center">
-                <img src=" /media/Imagenes/WebSiteInProgress/14.png " alt=" ">
+                <img src=" /media/imagenes/web-site-progress/14.png " alt=" ">
             </div>
         </div>
     `,
