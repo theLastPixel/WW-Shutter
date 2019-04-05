@@ -1,10 +1,12 @@
 .grid-total {
-    height: 120vh;
+    height: 220vh;
 }
 
 .container-galeria {
-    grid-row: 3 / 35;
+    grid-row: 2 / 35;
     grid-column: 1 / -1;
-    background: black;
-    color: white;
+    background-image: url('/media/Imagenes/gallery-bgedit.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
 }
