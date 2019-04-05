@@ -1,18 +1,26 @@
 .grid-total {
-  height: 110vh; }
+    height: 150vh;
+    background-image: url('/media/Imagenes/gallery-bgedit.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(39, 39, 39);
+}
 
 .contenedor-index {
-  grid-row: 3 / 30;
-  grid-column: 1 / -1;
-  background: black;
-  color: white;
-  display: grid;
-  grid-template: repeat(20, 1fr)/repeat(20, 1fr); }
-  .contenedor-index h2 {
+    grid-row: 5 / 30;
+    grid-column: 1 / -1;
+    background: transparent;
+    color: white;
+    display: grid;
+    grid-template: repeat(20, 1fr)/repeat(20, 1fr);
+}
+
+.contenedor-index h2 {
     text-align: center;
     justify-content: center;
     justify-items: center;
     justify-self: center;
     align-content: center;
     align-items: center;
-    align-self: center; }
+    align-self: center;
+}

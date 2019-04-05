@@ -19,7 +19,7 @@
     font-size: .9vw;
 }
 
-nav li:hover {
+nav li .nav-link:hover {
     text-decoration: none;
     border-top: 3px solid;
     border-color: rgb(255, 123, 0);
