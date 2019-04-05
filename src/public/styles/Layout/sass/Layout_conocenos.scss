@@ -3,8 +3,30 @@
 }
 
 .container-conocenos {
-    grid-row: 3 / 35;
+    grid-row: 3 / 30;
     grid-column: 1 / -1;
-    background: rgb(0, 0, 0);
+    background: rgb(51, 48, 48);
     color: white;
+    display: grid;
+    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+    .nosotros {
+        grid-row: 3 / 7;
+        grid-column: 10 / 30;
+        background: black;
+    }
+    .valores {
+        grid-row: 10 / 14;
+        grid-column: 10 / 30;
+        background: black;
+    }
+    .mision {
+        grid-row: 17 / 21;
+        grid-column: 10 / 30;
+        background: black;
+    }
+    .vision {
+        grid-row: 24 / 28;
+        grid-column: 10 / 30;
+        background: black;
+    }
 }

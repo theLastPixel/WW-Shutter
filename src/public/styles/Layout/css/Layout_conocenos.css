@@ -2,7 +2,25 @@
   height: 120vh; }
 
 .container-conocenos {
-  grid-row: 3 / 35;
+  grid-row: 3 / 30;
   grid-column: 1 / -1;
-  background: black;
-  color: white; }
+  background: #333030;
+  color: white;
+  display: grid;
+  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+  .container-conocenos .nosotros {
+    grid-row: 3 / 7;
+    grid-column: 10 / 30;
+    background: black; }
+  .container-conocenos .valores {
+    grid-row: 10 / 14;
+    grid-column: 10 / 30;
+    background: black; }
+  .container-conocenos .mision {
+    grid-row: 17 / 21;
+    grid-column: 10 / 30;
+    background: black; }
+  .container-conocenos .vision {
+    grid-row: 24 / 28;
+    grid-column: 10 / 30;
+    background: black; }
