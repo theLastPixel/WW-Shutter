@@ -1,38 +1,26 @@
 .grid-total {
-    height: 120vh;
-}
+  height: 120vh; }
 
 .container-conocenos {
-    grid-row: 3 / 35;
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template: repeat(40, 1fr)/repeat(40, 1fr);
-}
-
-.container-conocenos .nosotros {
-    grid-row: 5 / 10;
-    grid-column: 8 / 32;
-    background: rgba(0, 0, 0, 0.315);
-    padding: 5px 5px 5px 5px;
-}
-
-.container-conocenos .valores {
-    grid-row: 12 / 17;
-    grid-column: 8 / 32;
-    background: rgba(0, 0, 0, 0.315);
-    padding: 5px 5px 5px 5px;
-}
-
-.container-conocenos .mision {
-    grid-row: 19 / 24;
-    grid-column: 8 / 32;
-    background: rgba(0, 0, 0, 0.315);
-    padding: 5px 5px 5px 5px;
-}
-
-.container-conocenos .vision {
-    grid-row: 26 / 31;
-    grid-column: 8 / 32;
-    background: rgba(0, 0, 0, 0.315);
-    padding: 5px 5px 5px 5px;
-}
+  grid-row: 3 / 30;
+  grid-column: 1 / -1;
+  background: #333030;
+  color: white;
+  display: grid;
+  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+  .container-conocenos .nosotros {
+    grid-row: 3 / 7;
+    grid-column: 10 / 30;
+    background: black; }
+  .container-conocenos .valores {
+    grid-row: 10 / 14;
+    grid-column: 10 / 30;
+    background: black; }
+  .container-conocenos .mision {
+    grid-row: 17 / 21;
+    grid-column: 10 / 30;
+    background: black; }
+  .container-conocenos .vision {
+    grid-row: 24 / 28;
+    grid-column: 10 / 30;
+    background: black; }
