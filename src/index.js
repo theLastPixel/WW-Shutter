@@ -47,9 +47,10 @@ app.get('/shutter/Estandar', (req, res) => {
 app.get('/shutter/PuertaFrancesa', (req, res) => {
     res.render('ShutterPuertaFrancesa');
 });
-app.get('/shutter/Arco', (req, res) => {
-    res.render('ShutterArco');
-});
+
+// app.get('/shutter/Arco', (req, res) => {
+//     res.render('ShutterArco');
+// });
 
 //Static Files
 app.use(express.static(path.join(__dirname + '/public')));
