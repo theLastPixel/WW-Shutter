@@ -53,7 +53,7 @@ app.get('/shutter/Arco', (req, res) => {
 });
 
 app.get('/shutter/go', (req, res) => {
-    res.send('hello world');
+    res.render('ShutterPuertaFrancesa');
 });
 
 //Static Files
