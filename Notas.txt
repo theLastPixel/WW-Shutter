@@ -1,10 +1,10 @@
 Folder para las compilaciones de SASS:
 1. Layout
 node-sass -w src/public/styles/Layout/sass -o src/public/styles/Layout/css
-2. Diseños:
+2. Diseï¿½os:
 node-sass -w src/public/styles/Design/sass -o src/public/styles/Design/css
 
-Cada compilacion debera ser difernte terminal de comandos por lo que seran dos uno para los diseños y uno para la maquetacion
+Cada compilacion debera ser difernte terminal de comandos por lo que seran dos uno para los diseï¿½os y uno para la maquetacion
 
 Para correr el proyecto es necesario compilar con node.js el comando:
 npm run dev (Este comando ya esta en el package.json el cual se encarga de abrir el archivo principal index.js en el servidor)
