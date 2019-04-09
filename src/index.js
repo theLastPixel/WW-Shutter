@@ -38,17 +38,17 @@ app.get('/', (req, res) => {
 });
 
 /*TIPOS DE SHUTTER*/
-app.get('/shutter/Corrediza', (req, res) => {
+app.get('/shutterCorrediza', (req, res) => {
     res.render('ShutterCorrediza');
 });
-app.get('/shutter/Estandar', (req, res) => {
+app.get('/shutterEstandar', (req, res) => {
     res.render('ShutterEstandar');
 });
-app.get('/shutter/PuertaFrancesa', (req, res) => {
+app.get('/shutterPuertaFrancesa', (req, res) => {
     res.render('ShutterPuertaFrancesa');
 });
 
-app.get('/shutter/Arco', (req, res) => {
+app.get('/shutterArco', (req, res) => {
     res.render('ShutterArco');
 });
 
