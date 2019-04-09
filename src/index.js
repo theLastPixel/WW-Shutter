@@ -45,9 +45,8 @@ app.get('/shutterEstandar', (req, res) => {
     res.render('ShutterEstandar');
 });
 app.get('/shutterPuertaFrancesa', (req, res) => {
-    res.render('ShutterPuertaFrancesa');
+    res.render('shutterPuertaFrancesa');
 });
-
 app.get('/shutterArco', (req, res) => {
     res.render('ShutterArco');
 });
