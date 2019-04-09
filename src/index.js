@@ -52,6 +52,10 @@ app.get('/shutter/Arco', (req, res) => {
     res.render('ShutterArco');
 });
 
+app.get('/shutter/go', (req, res) => {
+    res.send('hello world');
+});
+
 //Static Files
 app.use(express.static(path.join(__dirname + '/public')));
 
