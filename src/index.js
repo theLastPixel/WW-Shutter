@@ -37,7 +37,6 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-/*TIPOS DE SHUTTER*/
 app.get('/shutter/Corrediza', (req, res) => {
     res.render('shutterCorrediza');
 });
