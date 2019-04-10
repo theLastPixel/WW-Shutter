@@ -1,53 +1,42 @@
-    .grid-total-footer {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    
-    .container-company p {
-        font-size: .6vw;
-    }
-    
-    .container-company h2 {
-        color: rgb(255, 115, 0);
-        font-size: 1vw;
-    }
-    
-    .container-copyRight h2 {
-        font-size: 1vw;
-    }
-    
-    .container-product h2 {
-        color: rgb(255, 115, 0);
-        font-size: 1vw;
-    }
-    
-    .container-product p {
-        font-size: .6vw;
-    }
-    
-    .container-links h2 {
-        color: rgb(255, 115, 0);
-        font-size: 1vw;
-    }
-    
-    .container-links a {
-        color: rgb(88, 87, 86);
-        font-size: .8vw;
-    }
-    
-    .container-links a:hover {
-        color: rgb(138, 134, 132);
-        font-size: .8vw;
-    }
-    
-    .container-contact h2 {
-        color: rgb(255, 115, 0);
-        font-size: 1vw;
-    }
-    
-    .container-contact p {
-        font-size: .8vw;
-    }
-    
-    i:hover {
-        color: rgb(255, 72, 0);
-    }
+.grid-total-footer {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+.container-company p {
+  font-size: .9vw;
+  text-align: justify; }
+
+.container-company h2 {
+  color: #ff7300;
+  font-size: 1.2vw; }
+
+.container-copyRight h2 {
+  font-size: 1.2vw; }
+
+.container-product h2 {
+  color: #ff7300;
+  font-size: 1.2vw; }
+
+.container-product p {
+  font-size: .9vw; }
+
+.container-links h2 {
+  color: #ff7300;
+  font-size: 1.2vw; }
+
+.container-links a {
+  color: #585756;
+  font-size: .8vw; }
+
+.container-links a:hover {
+  color: #8a8684;
+  font-size: .8vw; }
+
+.container-contact h2 {
+  color: #ff7300;
+  font-size: 1.2vw; }
+
+.container-contact p {
+  font-size: .9vw; }
+
+i:hover {
+  color: #ff4800; }

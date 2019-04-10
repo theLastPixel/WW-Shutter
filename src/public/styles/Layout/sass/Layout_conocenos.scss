@@ -1,5 +1,10 @@
 .grid-total {
-    height: 120vh;
+    height: 150vh;
+}
+
+.grid-total-footer {
+    grid-row: 30 / -1;
+    grid-column: 1 / -1;
 }
 
 .container-conocenos {
@@ -7,6 +12,35 @@
     grid-column: 1 / -1;
     background: rgb(0, 0, 0);
     color: white;
+    display: grid;
+    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+    .titulo{
+        grid-row: 4 / 6;
+        grid-column: 1 / -1;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        font-size: 3vw;
+    }
+
+    .img{
+        grid-row: 1 / -1;
+        grid-column: 1 / -1;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        img{
+            width: 80%;
+                height: auto;
+        }
+    }
 }
 
 // .container-conocenos {
