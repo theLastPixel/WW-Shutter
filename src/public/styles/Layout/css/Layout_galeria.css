@@ -1,12 +1,14 @@
 .grid-total {
-    height: 220vh;
-}
+  height: 290vh; }
 
 .container-galeria {
-    grid-row: 2 / 35;
-    grid-column: 1 / -1;
-    background-image: url('/media/Imagenes/gallery-bgedit.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: rgb(255, 255, 255);
-}
+  grid-row: 2 / 35;
+  grid-column: 1 / -1;
+  background-image: url("/media/Imagenes/gallery-bgedit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; }
+
+.grid-total-footer {
+  grid-row: 35 / -1;
+  grid-column: 1 / -1; }

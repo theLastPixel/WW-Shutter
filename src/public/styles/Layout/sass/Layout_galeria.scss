@@ -1,6 +1,17 @@
-.container-contactanos {
-    grid-row: 3 / 35;
+.grid-total {
+    height: 290vh;
+}
+
+.container-galeria {
+    grid-row: 2 / 35;
     grid-column: 1 / -1;
-    background: rgb(0, 0, 0);
-    color: white;
+    background-image: url('/media/Imagenes/gallery-bgedit.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+}
+
+.grid-total-footer {
+    grid-row: 35 / -1;
+    grid-column: 1 / -1;
 }

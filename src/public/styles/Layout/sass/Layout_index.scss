@@ -1,5 +1,9 @@
 .grid-total {
-    height: 110vh;
+    height: 150vh;
+}
+.grid-total-footer {
+    grid-row: 30 / -1;
+    grid-column: 1 / -1;
 }
 
 .contenedor-index {
