@@ -1,7 +1,5 @@
-.grid-total-header {
-    grid-row: 1 / 4;
-    grid-column: 1 / -1;
-    z-index: 1;
-    display: grid;
-    grid-template: repeat(4, 1fr) / repeat(40, 1fr);
-}
+    .grid-total-header {
+        z-index: 99999;
+        display: grid;
+        grid-template: repeat(4, 1fr) / repeat(40, 1fr);
+    }

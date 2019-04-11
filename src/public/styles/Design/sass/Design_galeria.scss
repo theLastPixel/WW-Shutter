@@ -99,8 +99,17 @@
 @media(max-width: 768px) {
     body {
         padding: 0;
+        .container-galeria * img {
+            width: 50%;
+            height: auto;
+        }
     }
     .container.gallery-container {
         border-radius: 0;
     }
+}
+
+.container-galeria * img {
+    width: 100%;
+    height: auto;
 }
