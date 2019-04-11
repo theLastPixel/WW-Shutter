@@ -59,12 +59,12 @@ i:hover {
   height: 100%;
   width: 100%; }
 
-.container-facebook {
-  text-decoration: none;
+.container-facebook i {
+  text-decoration: white;
   font-size: 2vw;
   color: white; }
 
-.container-instagram {
-  text-decoration: none;
+.container-instagram i {
+  text-decoration: white;
   font-size: 2vw;
   color: white; }
