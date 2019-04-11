@@ -1,6 +1,12 @@
 .grid-total {
-    height: 150vh;
+    height: 115vh;
 }
+
+.grid-total-header {
+    grid-row: 1 / 4;
+    grid-column: 1 / -1;
+}
+
 .grid-total-footer {
     grid-row: 30 / -1;
     grid-column: 1 / -1;
@@ -13,13 +19,20 @@
     color: white;
     display: grid;
     grid-template: repeat(20, 1fr) / repeat(20, 1fr);
-    h2 {
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
+    .logotipo {
+        grid-row: 3/10;
+        grid-column: 1/-1;
     }
+}
+
+.titulo {
+    grid-row: 12 / 14;
+    grid-column: 1 / -1;
+    // text-align: center;
+    // justify-content: center;
+    // justify-items: center;
+    // justify-self: center;
+    // align-content: center;
+    // align-items: center;
+    // align-self: center;
 }

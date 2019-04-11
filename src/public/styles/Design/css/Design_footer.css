@@ -60,7 +60,11 @@ i:hover {
   width: 100%; }
 
 .container-facebook {
-  font-size: 2vw; }
+  text-decoration: none;
+  font-size: 2vw;
+  color: white; }
 
 .container-instagram {
-  font-size: 2vw; }
+  text-decoration: none;
+  font-size: 2vw;
+  color: white; }

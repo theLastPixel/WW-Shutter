@@ -1,7 +1,3 @@
-.index {
-    color: black;
-}
-
 .bg-img {
     position: relative;
     grid-row: 1/21;
@@ -34,11 +30,6 @@ h1 {
     grid-column: 1/-1;
 }
 
-
-/* .carousel .item {
-      height: 300px;
-  } */
-
 .carousel-inner {
     grid-row: 1/21;
     grid-column: 1/21;
@@ -52,9 +43,6 @@ h1 {
 }
 
 .carousel-inner h5 {
-    position: relative;
-    bottom: 60px;
-    left: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5vw;
 }
@@ -67,14 +55,20 @@ h1 {
     font-size: 1.1vw;
 }
 
-.logotipo {
-    grid-row: 10/18;
-    grid-column: 16/26;
-    text-align: center;
-    background-size: cover;
-    z-index: 2;
-    img {
-        width: 100%;
-        height: auto;
+.contenedor-index {
+    .logotipo {
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        text-align: center;
+        background-size: cover;
+        z-index: 2;
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 }

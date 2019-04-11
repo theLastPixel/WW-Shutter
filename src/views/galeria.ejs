@@ -5,30 +5,23 @@
 <link rel="stylesheet" href="/styles/Layout/css/Layout_galeria.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 <link rel="stylesheet" href="">
+
 <div class="container-galeria">
-
     <br>
     <br>
-    <div class="container gallery-container">
-
-        <h1 class="text-center">Welcome to the gallery section<i class="fas fa-camera"></i></h1>
+    <div class="gallery-container">
+        <h1 class="text-center">Welcome to the gallery section <i class="fas fa-camera"></i></h1>
         <p class="page-description text-center">Browse through some of our latests products</p>
-
         <p class="page-description text-center"></p>
-
         <div class="tz-gallery">
-
             <div class="row mb-3">
                 <div class="col-md-4">
                     <div class="card ">
                         <a class="lightbox " href="/media/Imagenes/index//bg-shutters1edit.png">
                             <img src="/media/Imagenes/index/bg-shutters1edit.png" alt="Park" class="card-img-top">
-
                         </a>
-
                     </div>
                 </div>
-
                 <div class="col-md-4">
                     <div class="card">
                         <a class="lightbox" href="/media/Imagenes/index/bg-shutters2edit.png">
@@ -70,7 +63,6 @@
                 </div>
             </div>
             <br>
-
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
@@ -94,23 +86,20 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
 
-</div>
+    <!-- NUM OF PAGES -->
+    <div class="pagination">
 
-<!-- NUM OF PAGES -->
-<div class="pagination">
-
-    <a href="#">Prev</a>
-    <a href="#" class="active">1</a>
-    <a href="#">2</a>
-    <a href="#">3</a>
-    <a href="#">Next</a>
+        <a href="#">Prev</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">Next</a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
-    baguetteBox.run('.tz-gallery');
-</script>
