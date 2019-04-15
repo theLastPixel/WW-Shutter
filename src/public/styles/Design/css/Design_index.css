@@ -33,19 +33,18 @@
 
 .bg-img {
   position: relative;
-  grid-row: 1/21;
-  grid-column: 1/-1;
+  top: 180px;
+
   width: 100%;
   background-image: url("/media/Imagenes/bg-shutters.jpg");
   height: 100%;
   background-size: cover; }
-
-.bg-img:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(to bottom right, #c4c4c4, #000000);
-  opacity: .6; }
+  .logotipo{
+    position: relative;
+    top: 80px;
+  }
+.titulo{
+  position: relative;
+  top: -280px;
+  color: rgb(255, 255, 255);
+}
