@@ -1,41 +1,7 @@
-.grid-total {
-  height: 150vh; }
-
-.grid-total-header {
-  grid-row: 1 / 4;
+.grid-total-container .titulo {
+  grid-row: 4 / 6;
   grid-column: 1 / -1; }
 
-.grid-total-footer {
-  grid-row: 30 / -1;
+.grid-total-container .img {
+  grid-row: 1 / -1;
   grid-column: 1 / -1; }
-
-.container-conocenos {
-  grid-row: 3 / 35;
-  grid-column: 1 / -1;
-  background: black;
-  color: white;
-  display: grid;
-  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
-  .container-conocenos .titulo {
-    grid-row: 4 / 6;
-    grid-column: 1 / -1;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    align-content: center;
-    align-items: center;
-    align-self: center;
-    font-size: 3vw; }
-  .container-conocenos .img {
-    grid-row: 1 / -1;
-    grid-column: 1 / -1;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    align-content: center;
-    align-items: center;
-    align-self: center; }
-    .container-conocenos .img img {
-      width: 80%;
-      height: auto; }

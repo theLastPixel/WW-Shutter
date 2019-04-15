@@ -1,21 +1,4 @@
-.grid-total {
-    height: 260vh;
-    background-image: url('/media/Imagenes/gallery-bgedit.png');
-}
-
-.grid-total-header {
-    grid-row: 1 / 3;
-    grid-column: 1 / -1;
-}
-
-.grid-total-footer {
-    grid-row: 35 / -1;
-    grid-column: 1 / -1;
-}
-
-.container-galeria {
-    grid-row: 2 / 35;
-    grid-column: 1 / -1;
+.grid-total-container {
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
@@ -24,21 +7,9 @@
     .gallery-container {
         grid-row: 2 / 33;
         grid-column: 6 / 36;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
     }
     .pagination {
         grid-row: 34 / 40;
         grid-column: 1 / -1;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
     }
 }

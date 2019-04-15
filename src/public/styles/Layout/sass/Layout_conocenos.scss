@@ -1,77 +1,10 @@
-.grid-total {
-    height: 150vh;
-}
-
-.grid-total-header {
-    grid-row: 1 / 4;
-    grid-column: 1 / -1;
-}
-
-.grid-total-footer {
-    grid-row: 30 / -1;
-    grid-column: 1 / -1;
-}
-
-.container-conocenos {
-    grid-row: 3 / 35;
-    grid-column: 1 / -1;
-    background: rgb(0, 0, 0);
-    color: white;
-    display: grid;
-    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+.grid-total-container {
     .titulo {
         grid-row: 4 / 6;
         grid-column: 1 / -1;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        font-size: 3vw;
     }
     .img {
         grid-row: 1 / -1;
         grid-column: 1 / -1;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        img {
-            width: 80%;
-            height: auto;
-        }
     }
 }
-
-// .container-conocenos {
-//     grid-row: 3 / 30;
-//     grid-column: 1 / -1;
-//     background: rgb(51, 48, 48);
-//     color: white;
-//     display: grid;
-//     grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-//     .nosotros {
-//         grid-row: 3 / 7;
-//         grid-column: 10 / 30;
-//         background: black;
-//     }
-//     .valores {
-//         grid-row: 10 / 14;
-//         grid-column: 10 / 30;
-//         background: black;
-//     }
-//     .mision {
-//         grid-row: 17 / 21;
-//         grid-column: 10 / 30;
-//         background: black;
-//     }
-//     .vision {
-//         grid-row: 24 / 28;
-//         grid-column: 10 / 30;
-//         background: black;
-//     }
-// }
