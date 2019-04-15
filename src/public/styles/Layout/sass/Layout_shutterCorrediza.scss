@@ -1,45 +1,33 @@
-.grid-total {
-    height: 150vh;
-    .grid-total-footer {
-        grid-row: 30 / -1;
-        grid-column: 1 / -1;
-    }
-    .grid-total-header {
-        grid-row: 1 / 3;
-        grid-column: 1 / -1;
-        background: black;
-    }
-    .container-shutterCorrediza {
-        grid-row: 3 / 30;
-        grid-column: 1 / -1;
-        background: red;
+.grid-total-container {
+    grid-row: 3 / 30;
+    grid-column: 1 / -1;
+    background: red;
+    display: grid;
+    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+    .subcontainer-shutterCorrediza {
+        grid-row: 3 / 39;
+        grid-column: 3 / 39;
+        background: blue;
         display: grid;
         grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-        .subcontainer-shutterCorrediza {
-            grid-row: 3 / 39;
-            grid-column: 3 / 39;
-            background: blue;
+        .subcontainer-shutterCorrediza-description {
+            grid-row: 1 / -1;
+            grid-column: 1 / 23;
+            background: rgb(34, 216, 146);
             display: grid;
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-            .subcontainer-shutterCorrediza-description {
-                grid-row: 1 / -1;
-                grid-column: 1 / 23;
-                background: rgb(34, 216, 146);
-                display: grid;
-                grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-            }
-            .subcontainer-shutterCorrediza-imagenes {
-                grid-row: 1 / -1;
-                grid-column: 23 / -1;
-                background: rgb(107, 216, 34);
-                display: grid;
-                grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-            }
+        }
+        .subcontainer-shutterCorrediza-imagenes {
+            grid-row: 1 / -1;
+            grid-column: 23 / -1;
+            background: rgb(107, 216, 34);
+            display: grid;
+            grid-template: repeat(40, 1fr) / repeat(40, 1fr);
         }
     }
 }
 
-.container-shutterCorrediza h1 {
+.grid-total-container h1 {
     grid-column: 1 / -1;
     grid-row: 1 / -1;
     //align-self: center; //CENTER VERTICAL TEXT

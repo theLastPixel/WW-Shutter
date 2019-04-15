@@ -1,24 +1,6 @@
-.grid-total {
-    height: 150vh;
-}
-
-.grid-total-footer {
-    grid-row: 30 / -1;
-    grid-column: 1 / -1;
-}
-
-.grid-total-header {
-    grid-row: 1 / 4;
-    grid-column: 1 / -1;
-}
-
-.container-conocenos {
-    grid-row: 3 / 35;
-    grid-column: 1 / -1;
+.grid-total-container {
     background: rgb(0, 0, 0);
     color: white;
-    display: grid;
-    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
     .titulo {
         grid-row: 4 / 6;
         grid-column: 1 / -1;
