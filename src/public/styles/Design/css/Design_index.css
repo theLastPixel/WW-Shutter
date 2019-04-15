@@ -1,3 +1,36 @@
+.grid-total .grid-total-container {
+  background: #000000; }
+  .grid-total .grid-total-container .carousel .logotipo {
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+    align-self: center; }
+    .grid-total .grid-total-container .carousel .logotipo img {
+      width: 100%;
+      height: auto; }
+  .grid-total .grid-total-container .carousel .carousel-inner .carousel-item img {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-height: 780px;
+    width: 100%;
+    height: auto; }
+  .grid-total .grid-total-container .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    z-index: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+    align-self: center; }
+
 .bg-img {
   position: relative;
   grid-row: 1/21;
@@ -16,47 +49,3 @@
   left: 0;
   background-image: linear-gradient(to bottom right, #c4c4c4, #000000);
   opacity: .6; }
-
-h1 {
-  font-size: 3.2vw; }
-
-.carousel {
-  display: grid;
-  grid-template: repeat(20, 1fr)/repeat(20, 1fr);
-  grid-row: 1/34;
-  grid-column: 1/-1; }
-
-.carousel-inner {
-  grid-row: 1/21;
-  grid-column: 1/21; }
-
-.carousel-inner img {
-  position: relative;
-  top: 0;
-  left: 0;
-  max-height: 780px; }
-
-.carousel-inner h5 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 1.5vw; }
-
-.carousel-inner p {
-  position: relative;
-  bottom: 40px;
-  left: 0;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 1.1vw; }
-
-.contenedor-index .logotipo {
-  align-content: center;
-  align-items: center;
-  align-self: center;
-  justify-content: center;
-  justify-items: center;
-  justify-self: center;
-  text-align: center;
-  background-size: cover;
-  z-index: 2; }
-  .contenedor-index .logotipo img {
-    width: 100%;
-    height: auto; }

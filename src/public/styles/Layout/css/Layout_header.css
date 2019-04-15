@@ -1,4 +1,0 @@
-.grid-total-header {
-  z-index: 99999;
-  display: grid;
-  grid-template: repeat(4, 1fr)/repeat(40, 1fr); }

@@ -1,6 +1,4 @@
 .grid-total-footer {
-  display: grid;
-  grid-template: repeat(15, 1fr)/repeat(40, 1fr);
   background: #1e1e20;
   color: white; }
   .grid-total-footer .container-company {
