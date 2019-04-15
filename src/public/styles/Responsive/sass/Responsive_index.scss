@@ -1,0 +1,64 @@
+/* PC AND TV4K NEXT 1001PX */
+
+@media screen and (min-width: 1001px) {
+    .grid-total {
+        display: grid;
+        grid-template: 75px repeat(38, 1fr) 200px / repeat(40, 1fr);
+        height: 130vh;
+    }
+    .grid-total-header {
+        grid-row: 1 / 2;
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template: repeat(15, 1fr) / repeat(40, 1fr);
+    }
+    .grid-total-container {
+        grid-row: 2 / 35;
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+    }
+    .grid-total-footer {
+        grid-row: 30 / -1;
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template: repeat(15, 1fr) / repeat(40, 1fr);
+    }
+}
+
+// /* LAP OR iPAD 751PX - 1000PX */
+// @media screen and (min-width: 751px) and (max-width: 1000px) {
+//     .grid-total {
+//         grid-template: 80px repeat(38, 1fr) 115px / repeat(40, 1fr);
+//     }
+//     .grid-total-container {
+//         background: rgb(0, 225, 255);
+//     }
+// }
+// /* MINI LAP 501PX - 750PX */
+// @media screen and (min-width: 501px) and (max-width: 750px) {
+//     .grid-total {
+//         grid-template: 80px repeat(38, 1fr) 100px / repeat(40, 1fr);
+//     }
+//     .grid-total-container {
+//         background: rgb(255, 174, 0);
+//     }
+// }
+// /* PHONE 251PX - 500PX */
+// @media screen and (min-width: 251px) and (max-width: 500px) {
+//     .grid-total {
+//         grid-template: 60px repeat(38, 1fr) 80px / repeat(40, 1fr);
+//     }
+//     .grid-total-container {
+//         background: rgb(0, 4, 255);
+//     }
+// }
+// /* PHONE MINI 0PX - 300PX */
+// @media screen and (min-width: 0px) and (max-width: 250px) {
+//     .grid-total {
+//         grid-template: 35px repeat(38, 1fr) 40px / repeat(40, 1fr);
+//     }
+//     .grid-total-container {
+//         background: rgb(255, 0, 0);
+//     }
+// }
