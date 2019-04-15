@@ -1,12 +1,12 @@
-.grid-total {
-    height: 220vh;
-}
-
-.container-galeria {
-    grid-row: 2 / 35;
-    grid-column: 1 / -1;
-    background-image: url('/media/Imagenes/gallery-bgedit.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: rgb(255, 255, 255);
-}
+.grid-total-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: grid;
+  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+  .grid-total-container .gallery-container {
+    grid-row: 2 / 33;
+    grid-column: 6 / 36; }
+  .grid-total-container .pagination {
+    grid-row: 34 / 40;
+    grid-column: 1 / -1; }

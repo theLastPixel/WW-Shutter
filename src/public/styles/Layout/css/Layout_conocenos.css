@@ -1,26 +1,7 @@
-.grid-total {
-  height: 120vh; }
+.grid-total-container .titulo {
+  grid-row: 4 / 6;
+  grid-column: 1 / -1; }
 
-.container-conocenos {
-  grid-row: 3 / 30;
-  grid-column: 1 / -1;
-  background: #333030;
-  color: white;
-  display: grid;
-  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
-  .container-conocenos .nosotros {
-    grid-row: 3 / 7;
-    grid-column: 10 / 30;
-    background: black; }
-  .container-conocenos .valores {
-    grid-row: 10 / 14;
-    grid-column: 10 / 30;
-    background: black; }
-  .container-conocenos .mision {
-    grid-row: 17 / 21;
-    grid-column: 10 / 30;
-    background: black; }
-  .container-conocenos .vision {
-    grid-row: 24 / 28;
-    grid-column: 10 / 30;
-    background: black; }
+.grid-total-container .img {
+  grid-row: 1 / -1;
+  grid-column: 1 / -1; }
