@@ -1,30 +1,37 @@
 .grid-total-container {
-    background: rgb(255, 0, 0);
-    h1 {
-        //align-self: center; //CENTER VERTICAL TEXT
-        justify-self: center; //CENTER  HORIZONTAL TEXT
-        text-align: center;
-    }
+    background-image: url('/media/Imagenes/gallery-bgedit.png');
+    //background: white;
     .subcontainer-shutterArco {
-        background: blue;
+        color: white;
+        //color: black;
         h1 {
             justify-self: center; //CENTER  HORIZONTAL TEXT
             text-align: center;
         }
         .subcontainer-shutterArco-description {
-            background: rgb(34, 216, 146);
             h1 {
-                align-self: center; //CENTER VERTICAL TEXT
+                //align-self: center; //CENTER VERTICAL TEXT
                 justify-self: center; //CENTER  HORIZONTAL TEXT
                 text-align: center;
+                font-size: 4vw;
+            }
+            p {
+                align-self: center; //CENTER VERTICAL TEXT
+                justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: justify;
+                font-size: 2vw;
             }
         }
         .subcontainer-shutterArco-imagenes {
-            background: rgb(107, 216, 34);
-            h1 {
-                align-self: center; //CENTER VERTICAL TEXT
-                justify-self: center; //CENTER  HORIZONTAL TEXT
-                text-align: center;
+            justify-content: center;
+            justify-items: center;
+            justify-self: center;
+            align-content: center;
+            align-items: center;
+            align-self: center;
+            img {
+                width: 100%;
+                height: auto;
             }
         }
     }

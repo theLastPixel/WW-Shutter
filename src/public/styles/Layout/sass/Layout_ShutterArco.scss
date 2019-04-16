@@ -13,12 +13,24 @@
             grid-column: 1 / 23;
             display: grid;
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+            h1 {
+                grid-row: 1 / 5;
+                grid-column: 1 / -1;
+            }
+            p {
+                grid-row: 5 / -1;
+                grid-column: 1 / 38;
+            }
         }
         .subcontainer-shutterArco-imagenes {
             grid-row: 1 / -1;
             grid-column: 23 / -1;
             display: grid;
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+            img {
+                grid-row: 1 / -1;
+                grid-column: 1 / -1;
+            }
         }
     }
 }

@@ -1,22 +1,26 @@
 .grid-total-container {
-  background: red; }
-  .grid-total-container h1 {
-    justify-self: center;
-    text-align: center; }
+  background-image: url("/media/Imagenes/gallery-bgedit.png"); }
   .grid-total-container .subcontainer-shutterArco {
-    background: blue; }
+    color: white; }
     .grid-total-container .subcontainer-shutterArco h1 {
       justify-self: center;
       text-align: center; }
-    .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-description {
-      background: #22d892; }
-      .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-description h1 {
-        align-self: center;
-        justify-self: center;
-        text-align: center; }
+    .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-description h1 {
+      justify-self: center;
+      text-align: center;
+      font-size: 4vw; }
+    .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-description p {
+      align-self: center;
+      justify-self: center;
+      text-align: justify;
+      font-size: 2vw; }
     .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-imagenes {
-      background: #6bd822; }
-      .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-imagenes h1 {
-        align-self: center;
-        justify-self: center;
-        text-align: center; }
+      justify-content: center;
+      justify-items: center;
+      justify-self: center;
+      align-content: center;
+      align-items: center;
+      align-self: center; }
+      .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-imagenes img {
+        width: 100%;
+        height: auto; }
