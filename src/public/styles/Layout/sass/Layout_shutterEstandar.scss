@@ -1,53 +1,40 @@
 .grid-total-container {
     grid-row: 3 / 30;
     grid-column: 1 / -1;
-    background: red;
     display: grid;
     grid-template: repeat(40, 1fr) / repeat(40, 1fr);
     .subcontainer-shutterEstandar {
         grid-row: 3 / 39;
         grid-column: 3 / 39;
-        background: blue;
         display: grid;
         grid-template: repeat(40, 1fr) / repeat(40, 1fr);
         .subcontainer-shutterEstandar-description {
             grid-row: 1 / -1;
             grid-column: 1 / 23;
-            background: rgb(34, 216, 146);
             display: grid;
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+            h1 {
+                grid-row: 1 / 5;
+                grid-column: 1 / -1;
+            }
+            .subcontainer-shutterEstandar-description-text {
+                grid-row: 5 / -1;
+                grid-column: 1 / -1;
+            }
         }
         .subcontainer-shutterEstandar-imagenes {
             grid-row: 1 / -1;
             grid-column: 23 / -1;
-            background: rgb(107, 216, 34);
             display: grid;
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+            img:nth-child(1) {
+                grid-row: 1 / 20;
+                grid-column: 1 / -1;
+            }
+            img:nth-child(2) {
+                grid-row: 20 / -1;
+                grid-column: 1 / -1;
+            }
         }
     }
-}
-
-.grid-total-container h1 {
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
-    //align-self: center; //CENTER VERTICAL TEXT
-    justify-self: center; //CENTER  HORIZONTAL TEXT
-    text-align: center;
-}
-
-.subcontainer-shutterEstandar h1 {
-    justify-self: center; //CENTER  HORIZONTAL TEXT
-    text-align: center;
-}
-
-.subcontainer-shutterEstandar-description h1 {
-    align-self: center; //CENTER VERTICAL TEXT
-    justify-self: center; //CENTER  HORIZONTAL TEXT
-    text-align: center;
-}
-
-.subcontainer-shutterEstandar-imagenes h1 {
-    align-self: center; //CENTER VERTICAL TEXT
-    justify-self: center; //CENTER  HORIZONTAL TEXT
-    text-align: center;
 }

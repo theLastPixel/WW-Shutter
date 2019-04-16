@@ -15,21 +15,18 @@
             }
         }
         .subcontainer-shutterPuertaFrancesa-imagenes {
-            justify-content: center;
-            justify-items: center;
-            justify-self: center;
-            align-content: center;
-            align-items: center;
-            align-self: center;
+            justify-items: end;
             img:nth-child(1) {
                 display: block;
                 width: 100%;
                 height: auto;
+                align-self: flex-start;
             }
             img:nth-child(2) {
                 display: block;
                 width: 100%;
                 height: auto;
+                align-self: flex-end;
             }
         }
     }
