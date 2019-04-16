@@ -1,0 +1,33 @@
+.grid-total-container {
+    background: red;
+    h1 {
+        //align-self: center; //CENTER VERTICAL TEXT
+        justify-self: center; //CENTER  HORIZONTAL TEXT
+        text-align: center;
+        font-size: 4vw;
+    }
+    .subcontainer-shutterPuertaFrancesa {
+        background: blue;
+        display: grid;
+        h1 {
+            justify-self: center; //CENTER  HORIZONTAL TEXT
+            text-align: center;
+        }
+        .subcontainer-shutterPuertaFrancesa-description {
+            background: rgb(34, 216, 146);
+            h1 {
+                align-self: center; //CENTER VERTICAL TEXT
+                justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: center;
+            }
+        }
+        .subcontainer-shutterPuertaFrancesa-imagenes {
+            background: rgb(107, 216, 34);
+            h1 {
+                align-self: center; //CENTER VERTICAL TEXT
+                justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: center;
+            }
+        }
+    }
+}

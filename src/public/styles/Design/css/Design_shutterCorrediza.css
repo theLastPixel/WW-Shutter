@@ -1,0 +1,22 @@
+.grid-total-container {
+  background-image: url("/media/Imagenes/gallery-bgedit.png");
+  color: white; }
+  .grid-total-container h1 {
+    justify-self: center;
+    text-align: center; }
+  .grid-total-container .subcontainer-shutterCorrediza h1 {
+    justify-self: center;
+    text-align: center;
+    font-size: 4vw; }
+  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description-text {
+    justify-self: center;
+    text-align: justify;
+    font-size: 1.7vw; }
+  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description h1 {
+    align-self: center;
+    justify-self: center;
+    text-align: center; }
+  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description .subcontainer-shutterCorrediza-imagenes h1 {
+    align-self: center;
+    justify-self: center;
+    text-align: center; }

@@ -1,0 +1,24 @@
+.grid-total-container {
+  background: red; }
+  .grid-total-container h1 {
+    justify-self: center;
+    text-align: center;
+    font-size: 4vw; }
+  .grid-total-container .subcontainer-shutterPuertaFrancesa {
+    background: blue;
+    display: grid; }
+    .grid-total-container .subcontainer-shutterPuertaFrancesa h1 {
+      justify-self: center;
+      text-align: center; }
+    .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-description {
+      background: #22d892; }
+      .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-description h1 {
+        align-self: center;
+        justify-self: center;
+        text-align: center; }
+    .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-imagenes {
+      background: #6bd822; }
+      .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-imagenes h1 {
+        align-self: center;
+        justify-self: center;
+        text-align: center; }

@@ -1,44 +1,23 @@
 .grid-total-container {
   grid-row: 3 / 30;
   grid-column: 1 / -1;
-  background: red;
   display: grid;
   grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+  .grid-total-container h1 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 5; }
   .grid-total-container .subcontainer-shutterPuertaFrancesa {
     grid-row: 3 / 39;
     grid-column: 3 / 39;
-    background: blue;
     display: grid;
     grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
     .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-description {
       grid-row: 1 / -1;
       grid-column: 1 / 23;
-      background: #22d892;
       display: grid;
       grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
     .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-imagenes {
       grid-row: 1 / -1;
       grid-column: 23 / -1;
-      background: #6bd822;
       display: grid;
       grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
-
-.grid-total-container h1 {
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
-  justify-self: center;
-  text-align: center; }
-
-.subcontainer-shutterPuertaFrancesa h1 {
-  justify-self: center;
-  text-align: center; }
-
-.subcontainer-shutterPuertaFrancesa-description h1 {
-  align-self: center;
-  justify-self: center;
-  text-align: center; }
-
-.subcontainer-shutterPuertaFrancesa-imagenes h1 {
-  align-self: center;
-  justify-self: center;
-  text-align: center; }

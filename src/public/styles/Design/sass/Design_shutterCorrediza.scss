@@ -1,0 +1,35 @@
+.grid-total-container {
+    background-image: url('/media/Imagenes/gallery-bgedit.png');
+    color: white;
+    h1 {
+        //align-self: center; //CENTER VERTICAL TEXT
+        justify-self: center; //CENTER  HORIZONTAL TEXT
+        text-align: center;
+    }
+    .subcontainer-shutterCorrediza {
+        h1 {
+            justify-self: center; //CENTER  HORIZONTAL TEXT
+            text-align: center;
+            font-size: 4vw;
+        }
+        .subcontainer-shutterCorrediza-description-text {
+            justify-self: center; //CENTER  HORIZONTAL TEXT
+            text-align: justify;
+            font-size: 1.7vw;
+        }
+        .subcontainer-shutterCorrediza-description {
+            h1 {
+                align-self: center; //CENTER VERTICAL TEXT
+                justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: center;
+            }
+            .subcontainer-shutterCorrediza-imagenes {
+                h1 {
+                    align-self: center; //CENTER VERTICAL TEXT
+                    justify-self: center; //CENTER  HORIZONTAL TEXT
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
