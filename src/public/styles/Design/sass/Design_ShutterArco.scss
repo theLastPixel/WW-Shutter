@@ -1,0 +1,29 @@
+.grid-total-container {
+    background-image: url('/media/Imagenes/gallery-bgedit.png');
+    color: white;
+    .subcontainer-shutterArco {
+        .subcontainer-shutterArco-description {
+            h1 {
+                //align-self: center; //CENTER VERTICAL TEXT
+                //justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: left;
+                font-size: 4vw;
+            }
+            p {
+                //align-self: center; //CENTER VERTICAL TEXT
+                justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: justify;
+                font-size: 2vw;
+            }
+        }
+    }
+    .subcontainer-shutterArco-imagenes {
+        justify-items: end;
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            align-self: flex-end;
+        }
+    }
+}

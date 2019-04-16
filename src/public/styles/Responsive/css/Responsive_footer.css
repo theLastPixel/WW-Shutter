@@ -36,8 +36,8 @@
     .grid-total-footer .container-company {
       grid-row: 7 / 10;
       grid-column: 1 / -1;
-      text-align: center;
-      background: #3b3b3b; }
+      background: #3b3b3b;
+      text-align: center; }
     .grid-total-footer .container-company h2 {
       color: #ff7300;
       font-size: 5vw; }

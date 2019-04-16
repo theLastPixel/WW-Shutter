@@ -2,7 +2,7 @@
     .grid-total {
         display: grid;
         grid-template: 75px repeat(38, 1fr) 550px / repeat(40, 1fr);
-        height: 150vh;
+        height: 180vh;
     }
     .grid-total-header {
         grid-row: 1 / 2;

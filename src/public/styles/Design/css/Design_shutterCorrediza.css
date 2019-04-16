@@ -1,0 +1,22 @@
+.grid-total-container {
+  background-image: url("/media/Imagenes/gallery-bgedit.png");
+  color: white; }
+  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description h1 {
+    text-align: left;
+    font-size: 4vw; }
+  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description .subcontainer-shutterCorrediza-description-text {
+    justify-self: center;
+    text-align: justify;
+    font-size: 1.7vw; }
+  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes {
+    justify-items: end; }
+    .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes img:nth-child(1) {
+      display: block;
+      width: 100%;
+      height: auto;
+      align-self: flex-start; }
+    .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes img:nth-child(2) {
+      display: block;
+      width: 100%;
+      height: auto;
+      align-self: flex-end; }
