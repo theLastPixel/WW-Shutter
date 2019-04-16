@@ -1,49 +1,24 @@
 .grid-total-container {
-    background: rgb(255, 0, 0);
+    h1 {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+    }
     .subcontainer-shutterArco {
         grid-row: 3 / 39;
         grid-column: 3 / 39;
-        background: blue;
         display: grid;
         grid-template: repeat(40, 1fr) / repeat(40, 1fr);
         .subcontainer-shutterArco-description {
             grid-row: 1 / -1;
             grid-column: 1 / 23;
-            background: rgb(34, 216, 146);
             display: grid;
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
         }
         .subcontainer-shutterArco-imagenes {
             grid-row: 1 / -1;
             grid-column: 23 / -1;
-            background: rgb(107, 216, 34);
             display: grid;
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
         }
     }
-}
-
-.grid-total-container h1 {
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
-    //align-self: center; //CENTER VERTICAL TEXT
-    justify-self: center; //CENTER  HORIZONTAL TEXT
-    text-align: center;
-}
-
-.subcontainer-shutterArco h1 {
-    justify-self: center; //CENTER  HORIZONTAL TEXT
-    text-align: center;
-}
-
-.subcontainer-shutterArco-description h1 {
-    align-self: center; //CENTER VERTICAL TEXT
-    justify-self: center; //CENTER  HORIZONTAL TEXT
-    text-align: center;
-}
-
-.subcontainer-shutterArco-imagenes h1 {
-    align-self: center; //CENTER VERTICAL TEXT
-    justify-self: center; //CENTER  HORIZONTAL TEXT
-    text-align: center;
 }

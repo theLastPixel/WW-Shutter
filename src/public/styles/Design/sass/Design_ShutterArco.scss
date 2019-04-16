@@ -1,0 +1,31 @@
+.grid-total-container {
+    background: rgb(255, 0, 0);
+    h1 {
+        //align-self: center; //CENTER VERTICAL TEXT
+        justify-self: center; //CENTER  HORIZONTAL TEXT
+        text-align: center;
+    }
+    .subcontainer-shutterArco {
+        background: blue;
+        h1 {
+            justify-self: center; //CENTER  HORIZONTAL TEXT
+            text-align: center;
+        }
+        .subcontainer-shutterArco-description {
+            background: rgb(34, 216, 146);
+            h1 {
+                align-self: center; //CENTER VERTICAL TEXT
+                justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: center;
+            }
+        }
+        .subcontainer-shutterArco-imagenes {
+            background: rgb(107, 216, 34);
+            h1 {
+                align-self: center; //CENTER VERTICAL TEXT
+                justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: center;
+            }
+        }
+    }
+}
