@@ -7,10 +7,6 @@
         grid-row: 1 / 5;
         grid-column: 1 / -1;
     }
-    .subcontainer-shutterCorrediza-description-text {
-        grid-row: 5 / -1;
-        grid-column: 1 / 37;
-    }
     .subcontainer-shutterCorrediza {
         grid-row: 3 / 39;
         grid-column: 3 / 39;
@@ -21,6 +17,10 @@
             grid-column: 1 / 23;
             display: grid;
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+            .subcontainer-shutterCorrediza-description-text {
+                grid-row: 5 / -1;
+                grid-column: 1 / 37;
+            }
         }
         .subcontainer-shutterCorrediza-imagenes {
             grid-row: 1 / -1;

@@ -1,22 +1,32 @@
 .grid-total-container {
   background-image: url("/media/Imagenes/gallery-bgedit.png");
   color: white; }
-  .grid-total-container h1 {
-    justify-self: center;
-    text-align: center; }
-  .grid-total-container .subcontainer-shutterCorrediza h1 {
-    justify-self: center;
-    text-align: center;
+  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description h1 {
+    text-align: left;
     font-size: 4vw; }
-  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description-text {
-    justify-self: center;
+  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description .subcontainer-shutterCorrediza-description-text {
     text-align: justify;
     font-size: 1.7vw; }
-  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description h1 {
-    align-self: center;
+  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes {
+    grid-row: 1 / -1;
+    grid-column: 23 / -1;
+    display: grid;
+    grid-template: repeat(40, 1fr)/repeat(40, 1fr);
+    justify-content: center;
+    justify-items: center;
     justify-self: center;
-    text-align: center; }
-  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description .subcontainer-shutterCorrediza-imagenes h1 {
-    align-self: center;
-    justify-self: center;
-    text-align: center; }
+    align-content: center;
+    align-items: center;
+    align-self: center; }
+    .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes img:nth-child(1) {
+      display: block;
+      grid-row: 1 / 18;
+      grid-column: 1 / -1;
+      width: 100%;
+      height: auto; }
+    .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes img:nth-child(2) {
+      display: block;
+      grid-row: 18 / -1;
+      grid-column: 1 / -1;
+      width: 100%;
+      height: auto; }

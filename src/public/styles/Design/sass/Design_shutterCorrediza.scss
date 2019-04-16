@@ -1,34 +1,43 @@
 .grid-total-container {
     background-image: url('/media/Imagenes/gallery-bgedit.png');
     color: white;
-    h1 {
-        //align-self: center; //CENTER VERTICAL TEXT
-        justify-self: center; //CENTER  HORIZONTAL TEXT
-        text-align: center;
-    }
     .subcontainer-shutterCorrediza {
-        h1 {
-            justify-self: center; //CENTER  HORIZONTAL TEXT
-            text-align: center;
-            font-size: 4vw;
-        }
-        .subcontainer-shutterCorrediza-description-text {
-            justify-self: center; //CENTER  HORIZONTAL TEXT
-            text-align: justify;
-            font-size: 1.7vw;
-        }
         .subcontainer-shutterCorrediza-description {
             h1 {
-                align-self: center; //CENTER VERTICAL TEXT
-                justify-self: center; //CENTER  HORIZONTAL TEXT
-                text-align: center;
+                //justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: left;
+                font-size: 4vw;
             }
-            .subcontainer-shutterCorrediza-imagenes {
-                h1 {
-                    align-self: center; //CENTER VERTICAL TEXT
-                    justify-self: center; //CENTER  HORIZONTAL TEXT
-                    text-align: center;
-                }
+            .subcontainer-shutterCorrediza-description-text {
+                //justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: justify;
+                font-size: 1.7vw;
+            }
+        }
+        .subcontainer-shutterCorrediza-imagenes {
+            grid-row: 1 / -1;
+            grid-column: 23 / -1;
+            display: grid;
+            grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+            justify-content: center;
+            justify-items: center;
+            justify-self: center;
+            align-content: center;
+            align-items: center;
+            align-self: center;
+            img:nth-child(1) {
+                display: block;
+                grid-row: 1 / 18;
+                grid-column: 1 / -1;
+                width: 100%;
+                height: auto;
+            }
+            img:nth-child(2) {
+                display: block;
+                grid-row: 18 / -1;
+                grid-column: 1 / -1;
+                width: 100%;
+                height: auto;
             }
         }
     }

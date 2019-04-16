@@ -1,18 +1,12 @@
 .grid-total-container {
     background-image: url('/media/Imagenes/gallery-bgedit.png');
-    //background: white;
+    color: white;
     .subcontainer-shutterArco {
-        color: white;
-        //color: black;
-        h1 {
-            justify-self: center; //CENTER  HORIZONTAL TEXT
-            text-align: center;
-        }
         .subcontainer-shutterArco-description {
             h1 {
                 //align-self: center; //CENTER VERTICAL TEXT
-                justify-self: center; //CENTER  HORIZONTAL TEXT
-                text-align: center;
+                //justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: left;
                 font-size: 4vw;
             }
             p {
@@ -22,17 +16,18 @@
                 font-size: 2vw;
             }
         }
-        .subcontainer-shutterArco-imagenes {
-            justify-content: center;
-            justify-items: center;
-            justify-self: center;
-            align-content: center;
-            align-items: center;
-            align-self: center;
-            img {
-                width: 90%;
-                height: auto;
-            }
+    }
+    .subcontainer-shutterArco-imagenes {
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
         }
     }
 }

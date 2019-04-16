@@ -6,9 +6,6 @@
   .grid-total-container h1 {
     grid-row: 1 / 5;
     grid-column: 1 / -1; }
-  .grid-total-container .subcontainer-shutterCorrediza-description-text {
-    grid-row: 5 / -1;
-    grid-column: 1 / 37; }
   .grid-total-container .subcontainer-shutterCorrediza {
     grid-row: 3 / 39;
     grid-column: 3 / 39;
@@ -19,6 +16,9 @@
       grid-column: 1 / 23;
       display: grid;
       grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+      .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description .subcontainer-shutterCorrediza-description-text {
+        grid-row: 5 / -1;
+        grid-column: 1 / 37; }
     .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes {
       grid-row: 1 / -1;
       grid-column: 23 / -1;
