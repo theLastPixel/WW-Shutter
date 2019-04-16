@@ -10,34 +10,24 @@
             }
             .subcontainer-shutterCorrediza-description-text {
                 //justify-self: center; //CENTER  HORIZONTAL TEXT
+                justify-self: center;
                 text-align: justify;
                 font-size: 1.7vw;
             }
         }
         .subcontainer-shutterCorrediza-imagenes {
-            grid-row: 1 / -1;
-            grid-column: 23 / -1;
-            display: grid;
-            grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-            justify-content: center;
-            justify-items: center;
-            justify-self: center;
-            align-content: center;
-            align-items: center;
-            align-self: center;
+            justify-items: end;
             img:nth-child(1) {
                 display: block;
-                grid-row: 1 / 18;
-                grid-column: 1 / -1;
                 width: 100%;
                 height: auto;
+                align-self: flex-start;
             }
             img:nth-child(2) {
                 display: block;
-                grid-row: 18 / -1;
-                grid-column: 1 / -1;
                 width: 100%;
                 height: auto;
+                align-self: flex-end;
             }
         }
     }

@@ -10,7 +10,7 @@
                 font-size: 4vw;
             }
             p {
-                align-self: center; //CENTER VERTICAL TEXT
+                //align-self: center; //CENTER VERTICAL TEXT
                 justify-self: center; //CENTER  HORIZONTAL TEXT
                 text-align: justify;
                 font-size: 2vw;
@@ -18,16 +18,12 @@
         }
     }
     .subcontainer-shutterArco-imagenes {
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
+        justify-items: end;
         img {
             display: block;
             width: 100%;
             height: auto;
+            align-self: flex-end;
         }
     }
 }

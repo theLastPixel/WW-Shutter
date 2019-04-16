@@ -1,6 +1,13 @@
 .grid-total-container {
   background-image: url("/media/Imagenes/gallery-bgedit.png");
   color: white; }
+  .grid-total-container .subcontainer-shutterPuertaFrancesa .img {
+    justify-items: end; }
+    .grid-total-container .subcontainer-shutterPuertaFrancesa .img img {
+      display: block;
+      width: 100%;
+      height: auto;
+      align-self: flex-end; }
   .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-description h1 {
     text-align: left;
     font-size: 4vw; }
@@ -10,13 +17,8 @@
     text-align: justify; }
   .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-imagenes {
     justify-items: end; }
-    .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-imagenes img:nth-child(1) {
+    .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-imagenes img {
       display: block;
       width: 100%;
       height: auto;
       align-self: flex-start; }
-    .grid-total-container .subcontainer-shutterPuertaFrancesa .subcontainer-shutterPuertaFrancesa-imagenes img:nth-child(2) {
-      display: block;
-      width: 100%;
-      height: auto;
-      align-self: flex-end; }
