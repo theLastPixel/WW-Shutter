@@ -1,4 +1,4 @@
-Folder para las compilaciones de SASS:
+﻿Folder para las compilaciones de SASS:
 1. Layout
 node-sass -w src/public/styles/Layout/sass -o src/public/styles/Layout/css
 2. Dise�os:
@@ -14,3 +14,5 @@ npm run dev (Este comando ya esta en el package.json el cual se encarga de abrir
 Instalacion de node_modueles
 1. npm install express express-ejs-layouts path node-sass
 2. npm install -g  node-sass
+
+Bla
