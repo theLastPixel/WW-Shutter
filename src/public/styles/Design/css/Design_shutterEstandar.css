@@ -1,8 +1,22 @@
-.grid-total {
-  height: 100vh; }
-
-.container-tipoShutters {
-  grid-row: 3 / 35;
-  grid-column: 1 / -1;
-  background: black;
+.grid-total-container {
+  background-image: url("/media/Imagenes/gallery-bgedit.png");
   color: white; }
+  .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-description h1 {
+    text-align: left;
+    font-size: 4vw; }
+  .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-description .subcontainer-shutterEstandar-description-text {
+    justify-self: center;
+    text-align: justify;
+    font-size: 2vw; }
+  .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-imagenes {
+    justify-items: end; }
+    .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-imagenes img:nth-child(1) {
+      display: block;
+      width: 70%;
+      height: auto;
+      align-self: flex-start; }
+    .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-imagenes img:nth-child(2) {
+      display: block;
+      width: 70%;
+      height: auto;
+      align-self: flex-end; }

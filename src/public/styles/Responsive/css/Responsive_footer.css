@@ -1,0 +1,103 @@
+/* PHONE 0PX - 750PX */
+@media screen and (min-width: 0px) and (max-width: 750px) {
+  .grid-total-footer {
+    background: #1e1e20;
+    color: white;
+    text-align: center;
+    /*MAPA*/
+    /*COMPANY*/
+    /*PRODUCTS*/
+    /*LINKS*/
+    /*CONTACT*/
+    /*LINEA*/
+    /*COPY RIGHT*/
+    /*REDES SOCIALES*/
+    /*FACEBOOK*/
+    /*INSTAGRAM*/ }
+    .grid-total-footer .container-mapa {
+      grid-row: 1 / 7;
+      grid-column: 1 / -1; }
+    .grid-total-footer .container-mapa {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */ }
+    .grid-total-footer .container-mapa > * {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%; }
+    .grid-total-footer .container-company {
+      grid-row: 7 / 10;
+      grid-column: 1 / -1;
+      background: #3b3b3b;
+      text-align: center; }
+    .grid-total-footer .container-company h2 {
+      color: #ff7300;
+      font-size: 5vw; }
+    .grid-total-footer .container-company p {
+      font-size: 4vw;
+      text-align: center; }
+    .grid-total-footer .container-product {
+      grid-row: 11 / 14;
+      grid-column: 1 / 13;
+      text-align: center; }
+    .grid-total-footer .container-product h2 {
+      color: #ff7300;
+      font-size: 4vw; }
+    .grid-total-footer .container-product p {
+      font-size: 3vw; }
+    .grid-total-footer .container-links {
+      grid-row: 11 / 14;
+      grid-column: 30 / 40;
+      text-decoration: none; }
+    .grid-total-footer .container-links h2 {
+      color: #ff7300;
+      font-size: 4vw; }
+    .grid-total-footer .container-links a {
+      color: white;
+      font-size: 3vw; }
+    .grid-total-footer .container-links a:hover {
+      color: white;
+      font-size: 3vw; }
+    .grid-total-footer .container-contact {
+      grid-row: 10 / 14;
+      grid-column: 1 / -1; }
+    .grid-total-footer .container-contact h2 {
+      color: #ff7300;
+      font-size: 4vw; }
+    .grid-total-footer .container-contact p {
+      font-size: 3vw; }
+    .grid-total-footer .container-linea {
+      grid-row: 14 / 15;
+      grid-column: 1 / -1; }
+      .grid-total-footer .container-linea hr {
+        background: white; }
+    .grid-total-footer .container-copyRight {
+      grid-row: 15 / -1;
+      grid-column: 1 / 30; }
+      .grid-total-footer .container-copyRight h2 {
+        text-align: left;
+        font-size: 4vw; }
+    .grid-total-footer .container-facebook {
+      grid-row: 15 / -1;
+      grid-column: 34 / 37; }
+    .grid-total-footer .container-facebook i {
+      text-decoration: white;
+      font-size: 7vw;
+      color: white; }
+    .grid-total-footer .container-instagram {
+      grid-row: 15 / -1;
+      grid-column: 37 / 40; }
+    .grid-total-footer .container-instagram i {
+      text-decoration: white;
+      font-size: 7vw;
+      color: white; }
+    .grid-total-footer i:hover {
+      color: #ff4800; } }

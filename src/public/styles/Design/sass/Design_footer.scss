@@ -1,3 +1,86 @@
-.footer {
-    color: black;
+.grid-total-footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container-company p {
+    font-size: .9vw;
+    text-align: justify;
+}
+
+.container-company h2 {
+    color: rgb(255, 115, 0);
+    font-size: 1.2vw;
+}
+
+.container-copyRight h2 {
+    font-size: 1.2vw;
+}
+
+.container-product h2 {
+    color: rgb(255, 115, 0);
+    font-size: 1.2vw;
+}
+
+.container-product p {
+    font-size: .9vw;
+}
+
+.container-links h2 {
+    color: rgb(255, 115, 0);
+    font-size: 1.2vw;
+}
+
+.container-links a {
+    color: rgb(88, 87, 86);
+    font-size: .8vw;
+}
+
+.container-links a:hover {
+    color: rgb(138, 134, 132);
+    font-size: .8vw;
+}
+
+.container-contact h2 {
+    color: rgb(255, 115, 0);
+    font-size: 1.2vw;
+}
+
+.container-contact p {
+    font-size: .9vw;
+}
+
+i:hover {
+    color: rgb(255, 72, 0);
+}
+
+.container-mapa {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+
+.container-mapa>* {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container-facebook i {
+    text-decoration: white;
+    font-size: 2vw;
+    color: white;
+}
+
+.container-instagram i {
+    text-decoration: white;
+    font-size: 2vw;
+    color: white;
 }

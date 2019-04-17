@@ -1,8 +1,16 @@
-.grid-total {
-  height: 100vh; }
-
-.container-tipoShutters {
-  grid-row: 3 / 35;
-  grid-column: 1 / -1;
-  background: black;
+.grid-total-container {
+  background-image: url("/media/Imagenes/gallery-bgedit.png");
   color: white; }
+  .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-description h1 {
+    text-align: left;
+    font-size: 4vw; }
+  .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-description p {
+    text-align: justify;
+    font-size: 2vw; }
+  .grid-total-container .subcontainer-shutterArco-imagenes {
+    justify-items: end; }
+    .grid-total-container .subcontainer-shutterArco-imagenes img {
+      display: block;
+      width: 80%;
+      height: auto;
+      align-self: flex-start; }

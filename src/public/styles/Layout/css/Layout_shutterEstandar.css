@@ -1,8 +1,27 @@
-.grid-total {
-  height: 120vh; }
-
-.container-conocenos {
-  grid-row: 3 / 35;
-  grid-column: 1 / -1;
-  background: black;
-  color: white; }
+.grid-total-container .subcontainer-shutterEstandar {
+  grid-row: 3 / 39;
+  grid-column: 3 / 39;
+  display: grid;
+  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+  .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-description {
+    grid-row: 1 / -1;
+    grid-column: 1 / 23;
+    display: grid;
+    grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+    .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-description h1 {
+      grid-row: 1 / 5;
+      grid-column: 1 / -1; }
+    .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-description .subcontainer-shutterEstandar-description-text {
+      grid-row: 5 / -1;
+      grid-column: 1 / -1; }
+  .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-imagenes {
+    grid-row: 1 / -1;
+    grid-column: 23 / -1;
+    display: grid;
+    grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+    .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-imagenes img:nth-child(1) {
+      grid-row: 1 / 20;
+      grid-column: 1 / -1; }
+    .grid-total-container .subcontainer-shutterEstandar .subcontainer-shutterEstandar-imagenes img:nth-child(2) {
+      grid-row: 20 / -1;
+      grid-column: 1 / -1; }

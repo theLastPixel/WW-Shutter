@@ -1,3 +1,36 @@
-.typeOfShutter {
-    color: black;
+.grid-total-container {
+    background-image: url('/media/Imagenes/gallery-bgedit.png');
+    color: white;
+    .subcontainer-shutterPuertaFrancesa {
+        .img {
+            justify-items: end;
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+                align-self: flex-end;
+            }
+        }
+        .subcontainer-shutterPuertaFrancesa-description {
+            h1 {
+                text-align: left;
+                font-size: 4vw;
+            }
+            .subcontainer-shutterPuertaFrancesa-description-text {
+                font-size: 1.7vw;
+                //align-self: center; //CENTER VERTICAL TEXT
+                justify-self: center; //CENTER  HORIZONTAL TEXT
+                text-align: justify;
+            }
+        }
+        .subcontainer-shutterPuertaFrancesa-imagenes {
+            justify-items: end;
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+                align-self: flex-start;
+            }
+        }
+    }
 }

@@ -1,58 +1,36 @@
 .grid-total-footer {
-    grid-row: 32 / -1;
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template: repeat(15, 1fr)/repeat(40, 1fr);
-    background: #1e1e20;
-    color: white;
-}
-
-.grid-total-footer .container-company {
+  background: #1e1e20;
+  color: white; }
+  .grid-total-footer .container-company {
     grid-row: 2 / 11;
-    grid-column: 2 / 10;
-}
-
-.grid-total-footer .container-product {
+    grid-column: 2 / 10; }
+  .grid-total-footer .container-product {
     grid-row: 2 / 11;
-    grid-column: 12 / 20;
-}
-
-.grid-total-footer .container-links {
+    grid-column: 12 / 20; }
+  .grid-total-footer .container-links {
     grid-row: 2 / 11;
-    grid-column: 20 / 27;
-    text-decoration: none;
-}
-
-.grid-total-footer .container-contact {
+    grid-column: 17 / 27;
+    text-decoration: none; }
+  .grid-total-footer .container-contact {
     grid-row: 2 / 11;
-    grid-column: 28 / 40;
-}
-
-.grid-total-footer .container-linea {
+    grid-column: 21 / 40; }
+  .grid-total-footer .container-linea {
     grid-row: 11 / 12;
-    grid-column: 2 / 39;
-}
-
-.grid-total-footer .container-linea hr {
-    background: white;
-}
-
-.grid-total-footer .container-copyRight {
-    grid-row: 12 / 15;
-    grid-column: 2 / 40;
-}
-
-.grid-total-footer .container-facebook {
-    grid-row: 12 / 13;
-    grid-column: 36 / 37;
-}
-
-.grid-total-footer .container-instagram {
-    grid-row: 12 / 13;
-    grid-column: 37 / 38;
-}
-
-.grid-total-footer .container-twitter {
-    grid-row: 12 / 13;
-    grid-column: 38 / 39;
-}
+    grid-column: 2 / 31; }
+    .grid-total-footer .container-linea hr {
+      background: white; }
+  .grid-total-footer .container-copyRight {
+    grid-row: 13 / -1;
+    grid-column: 2 / 15; }
+  .grid-total-footer .container-facebook {
+    grid-row: 13 / 13;
+    grid-column: 29 / 37; }
+  .grid-total-footer .container-instagram {
+    grid-row: 13 / 13;
+    grid-column: 30 / 38; }
+  .grid-total-footer .container-twitter {
+    grid-row: 13 / 13;
+    grid-column: 38 / 39; }
+  .grid-total-footer .container-mapa {
+    grid-row: 2 / 15;
+    grid-column: 32 / 40; }

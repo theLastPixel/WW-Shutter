@@ -1,10 +1,27 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+/*-----------------------------------------------1201>------------------------------------------------*/
 
 .grid-total {
     display: grid;
+    background: black;
+}
+
+.grid-total-header {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template: repeat(15, 1fr) / repeat(40, 1fr);
+}
+
+.grid-total-container {
+    grid-row: 2 / 39;
+    grid-column: 1 / -1;
+    display: grid;
     grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+}
+
+.grid-total-footer {
+    grid-row: 39 / -1;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template: repeat(15, 1fr) / repeat(40, 1fr);
 }

@@ -1,8 +1,7 @@
-.grid-total {
-  height: 120vh; }
+.grid-total-container .titulo {
+  grid-row: 4 / 6;
+  grid-column: 1 / -1; }
 
-.container-conocenos {
-  grid-row: 3 / 35;
-  grid-column: 1 / -1;
-  background: black;
-  color: white; }
+.grid-total-container .img {
+  grid-row: 1 / -1;
+  grid-column: 1 / -1; }

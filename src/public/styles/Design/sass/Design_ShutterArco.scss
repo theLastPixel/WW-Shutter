@@ -1,3 +1,26 @@
-.typeOfShutter {
-    color: black;
+.grid-total-container {
+    background-image: url('/media/Imagenes/gallery-bgedit.png');
+    color: white;
+    .subcontainer-shutterArco {
+        .subcontainer-shutterArco-description {
+            h1 {
+                text-align: left;
+                font-size: 4vw;
+            }
+            p {
+                //align-self: center; //CENTER VERTICAL TEXT
+                text-align: justify;
+                font-size: 2vw;
+            }
+        }
+    }
+    .subcontainer-shutterArco-imagenes {
+        justify-items: end;
+        img {
+            display: block;
+            width: 80%;
+            height: auto;
+            align-self: flex-start;
+        }
+    }
 }
