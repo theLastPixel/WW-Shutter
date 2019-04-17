@@ -1,14 +1,3 @@
-.grid-total {
-  height: 110vh; }
-
-.grid-total-header {
-  grid-row: 1 / 4;
-  grid-column: 1 / -1; }
-
-.grid-total-footer {
-  grid-row: 30 / -1;
-  grid-column: 1 / -1; }
-
 .container-conocenos {
   grid-row: 3 / 35;
   grid-column: 1 / -1;

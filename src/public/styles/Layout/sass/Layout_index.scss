@@ -1,30 +1,20 @@
-.grid-total 
-{
-    .grid-total-container 
-    {
-        .carousel 
-        {
+.grid-total {
+    .grid-total-container {
+        .carousel {
             grid-row: 1/-1;
             grid-column: 1/-1;
             display: grid;
             grid-template: repeat(20, 1fr)/repeat(20, 1fr);
-            .logotipo 
-            {
+            .logotipo {
                 grid-row: 3 / 10;
                 grid-column: 9 / 13;
             }
-            .carousel-inner 
-            {
+            .carousel-inner {
                 grid-row: 1 / -1;
                 grid-column: 1 / -1;
-                .carousel-item 
-                {                    
-                    .carousel-caption 
-                    {
-                        h5 
-                        {
-                            
-                        }
+                .carousel-item {
+                    .carousel-caption {
+                        h5 {}
                     }
                 }
             }

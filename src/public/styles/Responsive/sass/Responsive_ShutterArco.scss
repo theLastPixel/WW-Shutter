@@ -1,51 +1,50 @@
-/*--------------------------------------------------------------------------------------*/
-/*                                           1201>                                      */
-/*--------------------------------------------------------------------------------------*/
-@media screen and (min-width: 1201px) 
-{
-    .grid-total 
-    {
-        grid-template: minmax(75px, 75px) repeat(38, 1fr) minmax(260px, auto) / repeat(40, 1fr);
-        height: 140vh;
-        .grid-total-header 
-        {
+/*-------------------------------------------1201>--------------------------------------*/
 
-        }
-        .grid-total-container 
-        {
-            h1 
-            {
-
-            }
-            .subcontainer-ShutterArco 
-            {
-                .img 
-                {
-                    align-self: flex-end;
-                    img {
-                        width: 80%;
-                        
-                    }
-                }
-                .subcontainer-ShutterArco-description 
-                {
-                    h1 
-                    {
-
-                    }
-                    .subcontainer-ShutterArco-description-text 
-                    {
-
-                    }
-                }
-                .subcontainer-ShutterArco-imagenes 
-                {
-                    img:nth-child(1) 
-                    {
-
-                    }
-                }
-            }
-        }
+@media screen and (min-width: 1201px) {
+    .grid-total {
+        display: grid;
+        grid-template: minmax(75px, 75px) repeat(38, minmax(min-content, max-content)) minmax(260px, 260px) / repeat(40, minmax(min-content, max-content));
+        .grid-total-header {}
+        .grid-total-container {}
+        .grid-total-footer {}
     }
+}
+
+
+/*--------------------------------------801PX >= 1200PX ---------------------------------------*/
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    .grid-total {
+        display: grid;
+        grid-template: minmax(75px, 75px) repeat(38, minmax(min-content, max-content)) minmax(550px, 550px) / repeat(40, minmax(min-content, max-content));
+    }
+    .grid-total-header {}
+    .grid-total-container {}
+    .grid-total-footer {}
+}
+
+
+/*---------------------------------------401PX >= 800PX---------------------------------------*/
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+    .grid-total {
+        display: grid;
+        grid-template: minmax(75px, 75px) repeat(38, minmax(min-content, max-content)) minmax(1200px, 1200px) / repeat(40, minmax(min-content, max-content));
+    }
+    .grid-total-header {}
+    .grid-total-container {}
+    .grid-total-footer {}
+}
+
+
+/*-------------------------------------0PX >= 400PX-----------------------------------*/
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .grid-total {
+        display: grid;
+        grid-template: minmax(75px, 75px) repeat(38, minmax(min-content, max-content)) minmax(1200px, 1200px) / repeat(40, minmax(min-content, max-content));
+    }
+    .grid-total-header {}
+    .grid-total-container {}
+    .grid-total-footer {}
 }
