@@ -1,161 +1,51 @@
-@media screen and (min-width: 1001px) {
-    .grid-total {
-        display: grid;
-        grid-template: 75px repeat(38, 1fr) 550px / repeat(40, 1fr);
-        height: 180vh;
-    }
-    .grid-total-header {
-        grid-row: 1 / 2;
-        grid-column: 1 / -1;
-        display: grid;
-        grid-template: repeat(15, 1fr) / repeat(40, 1fr);
-        max-height: 75px;
-        min-height: 75px;
-    }
-    .grid-total-container {
-        grid-row: 2 / -1;
-        grid-column: 1 / -1;
-        display: grid;
-        grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-    }
-    .grid-total-footer {
-        grid-row: -1 / -1;
-        grid-column: 1 / -1;
-        display: grid;
-        grid-template: repeat(15, 1fr) / repeat(40, 1fr);
-        max-height: 550px;
-        min-height: 550px;
-    }
-}
+/*--------------------------------------------------------------------------------------*/
+/*                                           1201>                                      */
+/*--------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1201px) 
+{
+    .grid-total 
+    {
+        grid-template: minmax(75px, 75px) repeat(38, 1fr) minmax(260px, auto) / repeat(40, 1fr);
+        height: 170vh;
+        .grid-total-header 
+        {
 
-@media screen and (min-width: 751px) and (max-width: 1000px) {
-    .grid-total {
-        display: grid;
-        grid-template: 50px repeat(38, 1fr) 250px / repeat(40, 1fr);
-        height: 130vh;
-    }
-    .grid-total-header {
-        grid-row: 1 / 2;
-        grid-column: 1 / -1;
-        display: grid;
-        grid-template: repeat(15, 1fr) / repeat(40, 1fr);
-        max-height: 75px;
-        min-height: 75px;
-    }
-    .grid-total-container {
-        grid-row: 2 / -1;
-        grid-column: 1 / -1;
-        display: grid;
-        grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-    }
-    .grid-total-footer {
-        grid-row: -1 / -1;
-        grid-column: 1 / -1;
-        display: grid;
-        grid-template: repeat(15, 1fr) / repeat(40, 1fr);
-        max-height: 250px;
-        min-height: 250px;
-    }
-}
-
-@media screen and (min-width: 501px) and (max-width: 750px) {
-    .grid-total {
-        display: grid;
-        grid-template: 50px repeat(38, 1fr) 250px / repeat(40, 1fr);
-        height: 130vh;
-        .grid-total-header {
-            grid-row: 1 / 2;
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template: repeat(15, 1fr) / repeat(40, 1fr);
-            max-height: 75px;
-            min-height: 75px;
         }
-        .grid-total-container {
-            grid-row: 2 / -1;
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-            .subcontainer-shutterPuertaFrancesa {
-                grid-row: 3 / 39;
-                grid-column: 3 / 39;
-                background: blue;
-                display: grid;
-                grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-                .subcontainer-shutterPuertaFrancesa-description {
-                    grid-row: 1 / 20;
-                    grid-column: 1 / -1;
-                    background: rgb(34, 46, 216);
-                    display: grid;
-                    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+        .grid-total-container 
+        {
+            h1 
+            {
+
+            }
+            .subcontainer-shutterPuertaFrancesa 
+            {
+                .img 
+                {
+                    align-self: flex-end;
+                    img {
+                        width: 80%;
+                        
+                    }
                 }
-                .subcontainer-shutterPuertaFrancesa-imagenes {
-                    grid-row: 20 / -1;
-                    grid-column: 1 / -1;
-                    background: rgb(107, 216, 34);
-                    display: grid;
-                    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+                .subcontainer-shutterPuertaFrancesa-description 
+                {
+                    h1 
+                    {
+
+                    }
+                    .subcontainer-shutterPuertaFrancesa-description-text 
+                    {
+
+                    }
+                }
+                .subcontainer-shutterPuertaFrancesa-imagenes 
+                {
+                    img:nth-child(1) 
+                    {
+
+                    }
                 }
             }
-        }
-        .grid-total-footer {
-            grid-row: -1 / -1;
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template: repeat(15, 1fr) / repeat(40, 1fr);
-            max-height: 250px;
-            min-height: 250px;
-        }
-    }
-}
-
-@media screen and (min-width: 251px) and (max-width: 500px) {
-    .grid-total {
-        display: grid;
-        grid-template: 50px repeat(38, 1fr) 250px / repeat(40, 1fr);
-        height: 120vh;
-        .grid-total-header {
-            grid-row: 1 / 2;
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template: repeat(15, 1fr) / repeat(40, 1fr);
-            max-height: 75px;
-            min-height: 75px;
-        }
-        .grid-total-container {
-            grid-row: 2 / -1;
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-            .subcontainer-shutterPuertaFrancesa {
-                grid-row: 3 / 39;
-                grid-column: 3 / 39;
-                background: blue;
-                display: grid;
-                grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-                .subcontainer-shutterPuertaFrancesa-description {
-                    grid-row: 1 / 20;
-                    grid-column: 1 / -1;
-                    background: rgb(34, 46, 216);
-                    display: grid;
-                    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-                }
-                .subcontainer-shutterPuertaFrancesa-imagenes {
-                    grid-row: 20 / -1;
-                    grid-column: 1 / -1;
-                    background: rgb(107, 216, 34);
-                    display: grid;
-                    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-                }
-            }
-        }
-        .grid-total-footer {
-            grid-row: -1 / -1;
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template: repeat(15, 1fr) / repeat(40, 1fr);
-            max-height: 250px;
-            min-height: 250px;
         }
     }
 }

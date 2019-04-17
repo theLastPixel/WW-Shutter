@@ -27,17 +27,11 @@
                         height: auto;
                     }
                     .carousel-caption {
+                       
                         h5 {
                             z-index: 1;
                             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                            font-size: 1.5vw;
-                            text-align: center;
-                            justify-content: center;
-                            justify-items: center;
-                            justify-self: center;
-                            align-content: center;
-                            align-items: center;
-                            align-self: center;
+                            font-size: 3vw;
                         }
                     }
                 }
@@ -66,3 +60,9 @@
     background-image: linear-gradient(to bottom right, #c4c4c4, #000000);
     opacity: .6;
 }
+
+.titulo{
+    position: relative;
+    bottom: 300px;
+    color: rgb(255, 255, 255);
+  }
