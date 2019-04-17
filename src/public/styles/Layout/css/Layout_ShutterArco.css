@@ -16,7 +16,7 @@
       grid-row: 1 / 5;
       grid-column: 1 / -1; }
     .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-description p {
-      grid-row: 5 / -1;
+      grid-row: 9 / -1;
       grid-column: 1 / 38; }
   .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-imagenes {
     grid-row: 1 / -1;
