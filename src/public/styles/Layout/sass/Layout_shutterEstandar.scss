@@ -1,8 +1,4 @@
 .grid-total-container {
-    grid-row: 3 / 30;
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
     .subcontainer-shutterEstandar {
         grid-row: 3 / 39;
         grid-column: 3 / 39;

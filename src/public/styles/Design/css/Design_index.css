@@ -22,29 +22,28 @@
   .grid-total .grid-total-container .carousel .carousel-inner .carousel-item .carousel-caption h5 {
     z-index: 1;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5vw;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    align-content: center;
-    align-items: center;
-    align-self: center; }
+    font-size: 3vw; }
 
 .bg-img {
   position: relative;
-  top: 180px;
-
+  grid-row: 1/21;
+  grid-column: 1/-1;
   width: 100%;
   background-image: url("/media/Imagenes/bg-shutters.jpg");
   height: 100%;
   background-size: cover; }
-  .logotipo{
-    position: relative;
-    top: 80px;
-  }
-.titulo{
+
+.bg-img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #c4c4c4, #000000);
+  opacity: .6; }
+
+.titulo {
   position: relative;
-  top: -280px;
-  color: rgb(255, 255, 255);
-}
+  bottom: 300px;
+  color: white; }
