@@ -1,26 +1,34 @@
 .grid-total-container {
     background-image: url('/media/Imagenes/gallery-bgedit.png');
     color: white;
-    .subcontainer-shutterArco {
-        .subcontainer-shutterArco-description {
+    .subcontainer-shutterCorrediza {
+        .subcontainer-shutterCorrediza-description {
             h1 {
+                //justify-self: center; //CENTER  HORIZONTAL TEXT
                 text-align: left;
                 font-size: 4vw;
             }
-            p {
-                //align-self: center; //CENTER VERTICAL TEXT
+            .subcontainer-shutterCorrediza-description-text {
+                //justify-self: center; //CENTER  HORIZONTAL TEXT
+                justify-self: center;
                 text-align: justify;
-                font-size: 2vw;
+                font-size: 1.7vw;
             }
         }
-    }
-    .subcontainer-shutterArco-imagenes {
-        justify-items: end;
-        img {
-            display: block;
-            width: 80%;
-            height: auto;
-            align-self: flex-start;
+        .subcontainer-shutterCorrediza-imagenes {
+            justify-items: end;
+            img:nth-child(1) {
+                display: block;
+                width: 100%;
+                height: auto;
+                align-self: flex-start;
+            }
+            img:nth-child(2) {
+                display: block;
+                width: 100%;
+                height: auto;
+                align-self: flex-end;
+            }
         }
     }
 }
