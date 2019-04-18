@@ -51,6 +51,15 @@ app.get('/shutter/Arco', (req, res) => {
     res.render('shutterArco');
 });
 
+/*TIPS*/
+app.get('/consejos/consejo-1', (req, res) => {
+    res.render('consejoUno');
+});
+
+app.get('/consejos/consejo-2', (req, res) => {
+    res.render('consejoDos')
+});
+
 //Static Files
 app.use(express.static(path.join(__dirname + '/public')));
 
