@@ -21,10 +21,6 @@ app.get('/catalogo', (req, res) => {
     res.render('catalogo');
 });
 
-app.get('/conocenos', (req, res) => {
-    res.render('conocenos');
-});
-
 app.get('/contactanos', (req, res) => {
     res.render('contactanos');
 });
@@ -58,6 +54,15 @@ app.get('/consejos/consejo-1', (req, res) => {
 
 app.get('/consejos/consejo-2', (req, res) => {
     res.render('consejoDos')
+});
+
+/*Nosotros*/
+app.get('/nosotros/conocenos', (req, res) => {
+    res.render('conocenos');
+});
+
+app.get('/nosotros/nuestroEquipo', (req, res) => {
+    res.render('nuestroEquipo')
 });
 
 //Static Files
