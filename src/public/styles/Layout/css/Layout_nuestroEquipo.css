@@ -1,0 +1,58 @@
+.subcontainer-nuestroEquipo {
+  grid-row: 3 / 39;
+  grid-column: 3 / 39;
+  display: grid;
+  grid-template: repeat(40, 1fr)/repeat(40, 1fr);
+  grid-gap: 5px;
+  /*GRID GENTE*/
+  /*GRID LEALTAD*/
+  /*GRID RESPETO*/
+  /*GRID COMPROMISO*/ }
+  .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente {
+    grid-row: 1 / 10;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template: repeat(40, 1fr)/repeat(40, 1fr);
+    grid-gap: 5px; }
+    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-img {
+      grid-row: 1 / -1;
+      grid-column: 1 / 10; }
+    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-description {
+      grid-row: 1 / -1;
+      grid-column: 10 / -1; }
+  .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad {
+    grid-row: 10 / 20;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template: repeat(40, 1fr)/repeat(40, 1fr);
+    grid-gap: 5px; }
+    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad .subcontainer-nuestroEquipo-lealtad-img {
+      grid-row: 1 / -1;
+      grid-column: 30 / -1; }
+    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad .subcontainer-nuestroEquipo-lealtad-description {
+      grid-row: 1 / -1;
+      grid-column: 1 / 30; }
+  .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto {
+    grid-row: 20 / 30;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template: repeat(40, 1fr)/repeat(40, 1fr);
+    grid-gap: 5px; }
+    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-img {
+      grid-row: 1 / -1;
+      grid-column: 1 / 10; }
+    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-description {
+      grid-row: 1 / -1;
+      grid-column: 10 / -1; }
+  .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso {
+    grid-row: 30 / -1;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template: repeat(40, 1fr)/repeat(40, 1fr);
+    grid-gap: 5px; }
+    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-img {
+      grid-row: 1 / -1;
+      grid-column: 30 / -1; }
+    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-description {
+      grid-row: 1 / -1;
+      grid-column: 1 / 30; }

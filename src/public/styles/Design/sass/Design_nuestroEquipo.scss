@@ -1,0 +1,47 @@
+.subcontainer-nuestroEquipo {
+    background: rgb(24, 24, 61);
+    /*GRID GENTE*/
+    .subcontainer-nuestroEquipo-gente {
+        .subcontainer-nuestroEquipo-gente-img {
+            background: rgb(59, 59, 59);
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+        .subcontainer-nuestroEquipo-gente-description {
+            background: rgb(131, 31, 224);
+        }
+    }
+    /*GRID LEALTAD*/
+    .subcontainer-nuestroEquipo-lealtad {
+        grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+        .subcontainer-nuestroEquipo-lealtad-img {
+            background: rgb(59, 59, 59);
+        }
+        .subcontainer-nuestroEquipo-lealtad-description {
+            background: rgb(131, 31, 224);
+        }
+    }
+    /*GRID RESPETO*/
+    .subcontainer-nuestroEquipo-respeto {
+        grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+        .subcontainer-nuestroEquipo-respeto-img {
+            background: rgb(59, 59, 59);
+        }
+        .subcontainer-nuestroEquipo-respeto-description {
+            background: rgb(131, 31, 224);
+        }
+    }
+    /*GRID COMPROMISO*/
+    .subcontainer-nuestroEquipo-compromiso {
+        grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+        .subcontainer-nuestroEquipo-compromiso-img {
+            background: rgb(59, 59, 59);
+        }
+        .subcontainer-nuestroEquipo-compromiso-description {
+            background: rgb(131, 31, 224);
+        }
+    }
+}
