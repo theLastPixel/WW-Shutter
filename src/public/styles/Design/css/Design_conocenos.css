@@ -6,35 +6,27 @@
     /*GRID GENTE*/
     /*GRID GENTE*/
     /*GRID GENTE*/ }
-    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-nosotros {
-      background: #641818; }
-      .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-nosotros h2 {
-        font-size: 2.5vw;
-        text-align: left; }
-      .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-nosotros p {
-        font-size: 1.7vw;
-        text-align: justify; }
-    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-valores {
-      background: #292929; }
-      .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-valores h2 {
-        font-size: 2.5vw;
-        text-align: left; }
-      .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-valores p {
-        font-size: 1.7vw;
-        text-align: justify; }
-    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-mision {
-      background: #641818; }
-      .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-mision h2 {
-        font-size: 2.5vw;
-        text-align: left; }
-      .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-mision p {
-        font-size: 1.7vw;
-        text-align: justify; }
-    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-vision {
-      background: #292929; }
-      .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-vision h2 {
-        font-size: 2.5vw;
-        text-align: left; }
-      .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-vision p {
-        font-size: 1.7vw;
-        text-align: justify; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-nosotros h2 {
+      font-size: 2.5vw;
+      text-align: left; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-nosotros p {
+      font-size: 1.7vw;
+      text-align: justify; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-valores h2 {
+      font-size: 2.5vw;
+      text-align: left; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-valores p {
+      font-size: 1.7vw;
+      text-align: justify; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-mision h2 {
+      font-size: 2.5vw;
+      text-align: left; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-mision p {
+      font-size: 1.7vw;
+      text-align: justify; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-vision h2 {
+      font-size: 2.5vw;
+      text-align: left; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-vision p {
+      font-size: 1.7vw;
+      text-align: justify; }
