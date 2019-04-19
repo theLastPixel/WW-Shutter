@@ -1,0 +1,11 @@
+.subcontainer-consejo {
+  grid-row: 3 / 39;
+  grid-column: 3 / 39;
+  display: grid;
+  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+  .subcontainer-consejo .subcontainer-consejo-titulo {
+    grid-row: 1 / 7;
+    grid-column: 1 / -1; }
+  .subcontainer-consejo .subcontainer-consejo-descripcion {
+    grid-row: 7 / -1;
+    grid-column: 1 / -1; }
