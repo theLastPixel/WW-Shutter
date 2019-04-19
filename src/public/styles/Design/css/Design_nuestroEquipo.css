@@ -6,27 +6,24 @@
     /*GRID LEALTAD*/
     /*GRID RESPETO*/
     /*GRID COMPROMISO*/ }
-    .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente {
-      background: rgba(110, 110, 110, 0.308); }
-      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-img {
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: flex-start;
-        align-items: flex-start;
-        align-self: flex-start; }
-        .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-img img {
-          display: block;
-          width: 100%;
-          height: auto; }
-      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-description h2 {
-        font-size: 3vw;
-        text-align: left; }
-      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-description p {
-        font-size: 1.7vw;
-        text-align: justify; }
+    .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-img {
+      justify-content: center;
+      justify-items: center;
+      justify-self: center;
+      align-content: flex-start;
+      align-items: flex-start;
+      align-self: flex-start; }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-img img {
+        display: block;
+        width: 100%;
+        height: auto; }
+    .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-description h2 {
+      font-size: 3vw;
+      text-align: left; }
+    .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-description p {
+      font-size: 1.7vw;
+      text-align: justify; }
     .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad {
-      background: rgba(110, 110, 110, 0.308);
       grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
       .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad .subcontainer-nuestroEquipo-lealtad-img img {
         justify-content: end;
@@ -45,7 +42,6 @@
         font-size: 1.7vw;
         text-align: justify; }
     .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto {
-      background: rgba(110, 110, 110, 0.308);
       grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
       .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-img {
         justify-content: center;
@@ -65,7 +61,6 @@
         font-size: 1.7vw;
         text-align: justify; }
     .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso {
-      background: rgba(110, 110, 110, 0.308);
       grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
       .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-img {
         justify-content: end;

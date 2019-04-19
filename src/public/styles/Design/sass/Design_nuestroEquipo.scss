@@ -4,7 +4,6 @@
     .subcontainer-nuestroEquipo {
         /*GRID GENTE*/
         .subcontainer-nuestroEquipo-gente {
-            background: rgba(110, 110, 110, 0.308);
             .subcontainer-nuestroEquipo-gente-img {
                 justify-content: center;
                 justify-items: center;
@@ -31,7 +30,6 @@
         }
         /*GRID LEALTAD*/
         .subcontainer-nuestroEquipo-lealtad {
-            background: rgba(110, 110, 110, 0.308);
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
             .subcontainer-nuestroEquipo-lealtad-img {
                 img {
@@ -59,7 +57,6 @@
         }
         /*GRID RESPETO*/
         .subcontainer-nuestroEquipo-respeto {
-            background: rgba(110, 110, 110, 0.308);
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
             .subcontainer-nuestroEquipo-respeto-img {
                 justify-content: center;
@@ -87,7 +84,6 @@
         }
         /*GRID COMPROMISO*/
         .subcontainer-nuestroEquipo-compromiso {
-            background: rgba(110, 110, 110, 0.308);
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
             .subcontainer-nuestroEquipo-compromiso-img {
                 justify-content: end;

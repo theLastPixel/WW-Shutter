@@ -1,22 +1,26 @@
 .grid-total-container {
   background-image: url("/media/Imagenes/gallery-bgedit.png");
   color: white; }
-  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description h1 {
-    text-align: left;
-    font-size: 4vw; }
-  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description .subcontainer-shutterCorrediza-description-text {
-    justify-self: center;
-    text-align: justify;
-    font-size: 1.7vw; }
-  .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes {
-    justify-items: end; }
-    .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes img:nth-child(1) {
-      display: block;
-      width: 100%;
-      height: auto;
-      align-self: flex-start; }
-    .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes img:nth-child(2) {
-      display: block;
-      width: 100%;
-      height: auto;
+  .grid-total-container .subcontainer-shutterArco {
+    display: block; }
+    .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-description h1 {
+      font-size: 4vw;
+      text-align: left; }
+    .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-description p {
+      font-size: 2vw;
+      text-align: justify; }
+    .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-imagenes {
+      justify-content: end;
+      justify-items: end;
+      justify-self: end;
+      align-content: flex-end;
+      align-items: flex-end;
       align-self: flex-end; }
+      .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-imagenes img:nth-child(1) {
+        display: block;
+        width: 90%;
+        height: auto; }
+      .grid-total-container .subcontainer-shutterArco .subcontainer-shutterArco-imagenes img:nth-child(2) {
+        display: block;
+        width: 100%;
+        height: auto; }
