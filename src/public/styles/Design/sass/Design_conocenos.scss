@@ -1,26 +1,54 @@
 .grid-total-container {
-    background: black;
-    .titulo {
-        color: white;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        font-size: 3vw;
-    }
-    .img {
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        img {
-            width: 80%;
-            height: auto;
+    background-image: url('/media/Imagenes/gallery-bgedit.png');
+    color: white;
+    .subcontainer-conocenos {
+        /*GRID GENTE*/
+        .subcontainer-conocenos-nosotros {
+            background: rgb(100, 24, 24);
+            h2 {
+                font-size: 2.5vw;
+                text-align: left;
+            }
+            p {
+                font-size: 1.7vw;
+                text-align: justify;
+            }
+        }
+        /*GRID GENTE*/
+        .subcontainer-conocenos-valores {
+            background: rgb(41, 41, 41);
+            h2 {
+                font-size: 2.5vw;
+                text-align: left;
+            }
+            p {
+                font-size: 1.7vw;
+                text-align: justify;
+            }
+        }
+        /*GRID GENTE*/
+        .subcontainer-conocenos-mision {
+            background: rgb(100, 24, 24);
+            h2 {
+                font-size: 2.5vw;
+                text-align: left;
+            }
+            p {
+                font-size: 1.7vw;
+                text-align: justify;
+            }
+        }
+        /*GRID GENTE*/
+        .subcontainer-conocenos-vision {
+            background: rgb(41, 41, 41);
+            h2 {
+                font-size: 2.5vw;
+                text-align: left;
+            }
+            p {
+                font-size: 1.7vw;
+                text-align: justify;
+            }
         }
     }
 }

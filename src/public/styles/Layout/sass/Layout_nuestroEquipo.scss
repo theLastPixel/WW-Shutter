@@ -3,14 +3,14 @@
     grid-column: 3 / 39;
     display: grid;
     grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-    grid-gap: 5px;
+    grid-gap: 0.5%;
     /*GRID GENTE*/
     .subcontainer-nuestroEquipo-gente {
         grid-row: 1 / 10;
         grid-column: 1 / -1;
         display: grid;
         grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-        grid-gap: 5px;
+        grid-gap: 0.5%;
         .subcontainer-nuestroEquipo-gente-img {
             grid-row: 1 / -1;
             grid-column: 1 / 10;
@@ -26,7 +26,7 @@
         grid-column: 1 / -1;
         display: grid;
         grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-        grid-gap: 5px;
+        grid-gap: 0.5%;
         .subcontainer-nuestroEquipo-lealtad-img {
             grid-row: 1 / -1;
             grid-column: 30 / -1;
@@ -42,7 +42,7 @@
         grid-column: 1 / -1;
         display: grid;
         grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-        grid-gap: 5px;
+        grid-gap: 0.5%;
         .subcontainer-nuestroEquipo-respeto-img {
             grid-row: 1 / -1;
             grid-column: 1 / 10;
@@ -58,7 +58,7 @@
         grid-column: 1 / -1;
         display: grid;
         grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-        grid-gap: 5px;
+        grid-gap: 0.5%;
         .subcontainer-nuestroEquipo-compromiso-img {
             grid-row: 1 / -1;
             grid-column: 30 / -1;

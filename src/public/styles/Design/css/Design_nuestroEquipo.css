@@ -1,32 +1,86 @@
-.subcontainer-nuestroEquipo {
-  background: #18183d;
-  /*GRID GENTE*/
-  /*GRID LEALTAD*/
-  /*GRID RESPETO*/
-  /*GRID COMPROMISO*/ }
-  .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-img {
-    background: #3b3b3b; }
-    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-img img {
-      display: block;
-      width: 100%;
-      height: auto; }
-  .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-description {
-    background: #831fe0; }
-  .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad {
-    grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
-    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad .subcontainer-nuestroEquipo-lealtad-img {
-      background: #3b3b3b; }
-    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad .subcontainer-nuestroEquipo-lealtad-description {
-      background: #831fe0; }
-  .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto {
-    grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
-    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-img {
-      background: #3b3b3b; }
-    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-description {
-      background: #831fe0; }
-  .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso {
-    grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
-    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-img {
-      background: #3b3b3b; }
-    .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-description {
-      background: #831fe0; }
+.grid-total-container {
+  background-image: url("/media/Imagenes/gallery-bgedit.png");
+  color: white; }
+  .grid-total-container .subcontainer-nuestroEquipo {
+    /*GRID GENTE*/
+    /*GRID LEALTAD*/
+    /*GRID RESPETO*/
+    /*GRID COMPROMISO*/ }
+    .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente {
+      background: rgba(110, 110, 110, 0.308); }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-img {
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-content: flex-start;
+        align-items: flex-start;
+        align-self: flex-start; }
+        .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-img img {
+          display: block;
+          width: 100%;
+          height: auto; }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-description h2 {
+        font-size: 3vw;
+        text-align: left; }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-description p {
+        font-size: 1.7vw;
+        text-align: justify; }
+    .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad {
+      background: rgba(110, 110, 110, 0.308);
+      grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad .subcontainer-nuestroEquipo-lealtad-img img {
+        justify-content: end;
+        justify-items: end;
+        justify-self: end;
+        align-content: flex-end;
+        align-items: flex-end;
+        align-self: flex-end;
+        display: block;
+        width: 100%;
+        height: auto; }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad .subcontainer-nuestroEquipo-lealtad-description h2 {
+        font-size: 3vw;
+        text-align: left; }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad .subcontainer-nuestroEquipo-lealtad-description p {
+        font-size: 1.7vw;
+        text-align: justify; }
+    .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto {
+      background: rgba(110, 110, 110, 0.308);
+      grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-img {
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-content: flex-start;
+        align-items: flex-start;
+        align-self: flex-start; }
+        .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-img img {
+          display: block;
+          width: 100%;
+          height: auto; }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-description h2 {
+        font-size: 3vw;
+        text-align: left; }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-description p {
+        font-size: 1.7vw;
+        text-align: justify; }
+    .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso {
+      background: rgba(110, 110, 110, 0.308);
+      grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-img {
+        justify-content: end;
+        justify-items: end;
+        justify-self: end;
+        align-content: center;
+        align-items: center;
+        align-self: center; }
+        .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-img img {
+          display: block;
+          width: 100%;
+          height: auto; }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-description h2 {
+        font-size: 3vw;
+        text-align: left; }
+      .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-description p {
+        font-size: 1.7vw;
+        text-align: justify; }
