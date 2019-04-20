@@ -1,26 +1,50 @@
 .grid-total-container {
-    background: black;
-    .titulo {
-        color: white;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        font-size: 3vw;
-    }
-    .img {
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        img {
-            width: 80%;
-            height: auto;
+    background-image: url('/media/Imagenes/gallery-bgedit.png');
+    color: white;
+    .subcontainer-conocenos {
+        /*GRID GENTE*/
+        .subcontainer-conocenos-nosotros {
+            h2 {
+                font-size: 2.5vw;
+                text-align: left;
+            }
+            p {
+                font-size: 1.7vw;
+                text-align: justify;
+            }
+        }
+        /*GRID GENTE*/
+        .subcontainer-conocenos-valores {
+            h2 {
+                font-size: 2.5vw;
+                text-align: left;
+            }
+            p {
+                font-size: 1.7vw;
+                text-align: justify;
+            }
+        }
+        /*GRID GENTE*/
+        .subcontainer-conocenos-mision {
+            h2 {
+                font-size: 2.5vw;
+                text-align: left;
+            }
+            p {
+                font-size: 1.7vw;
+                text-align: justify;
+            }
+        }
+        /*GRID GENTE*/
+        .subcontainer-conocenos-vision {
+            h2 {
+                font-size: 2.5vw;
+                text-align: left;
+            }
+            p {
+                font-size: 1.7vw;
+                text-align: justify;
+            }
         }
     }
 }

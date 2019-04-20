@@ -1,0 +1,71 @@
+.subcontainer-nuestroEquipo {
+    grid-row: 3 / 39;
+    grid-column: 3 / 39;
+    display: grid;
+    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+    grid-gap: 0.5%;
+    /*GRID GENTE*/
+    .subcontainer-nuestroEquipo-gente {
+        grid-row: 1 / 10;
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+        grid-gap: 0.5%;
+        .subcontainer-nuestroEquipo-gente-img {
+            grid-row: 1 / -1;
+            grid-column: 1 / 10;
+        }
+        .subcontainer-nuestroEquipo-gente-description {
+            grid-row: 1 / -1;
+            grid-column: 10 / -1;
+        }
+    }
+    /*GRID LEALTAD*/
+    .subcontainer-nuestroEquipo-lealtad {
+        grid-row: 10 / 20;
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+        grid-gap: 0.5%;
+        .subcontainer-nuestroEquipo-lealtad-img {
+            grid-row: 1 / -1;
+            grid-column: 30 / -1;
+        }
+        .subcontainer-nuestroEquipo-lealtad-description {
+            grid-row: 1 / -1;
+            grid-column: 1 / 30;
+        }
+    }
+    /*GRID RESPETO*/
+    .subcontainer-nuestroEquipo-respeto {
+        grid-row: 20 / 30;
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+        grid-gap: 0.5%;
+        .subcontainer-nuestroEquipo-respeto-img {
+            grid-row: 1 / -1;
+            grid-column: 1 / 10;
+        }
+        .subcontainer-nuestroEquipo-respeto-description {
+            grid-row: 1 / -1;
+            grid-column: 10 / -1;
+        }
+    }
+    /*GRID COMPROMISO*/
+    .subcontainer-nuestroEquipo-compromiso {
+        grid-row: 30 / -1;
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+        grid-gap: 0.5%;
+        .subcontainer-nuestroEquipo-compromiso-img {
+            grid-row: 1 / -1;
+            grid-column: 30 / -1;
+        }
+        .subcontainer-nuestroEquipo-compromiso-description {
+            grid-row: 1 / -1;
+            grid-column: 1 / 30;
+        }
+    }
+}

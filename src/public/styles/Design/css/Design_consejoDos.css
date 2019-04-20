@@ -1,0 +1,9 @@
+.grid-total-container {
+  background-image: url("/media/Imagenes/gallery-bgedit.png");
+  color: white; }
+  .grid-total-container .subcontainer-consejo .subcontainer-consejo-titulo h1 {
+    font-size: 4vw;
+    text-align: left; }
+  .grid-total-container .subcontainer-consejo .subcontainer-consejo-descripcion p {
+    font-size: 2vw;
+    text-align: justify; }

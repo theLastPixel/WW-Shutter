@@ -5,13 +5,11 @@
         display: grid;
         grid-template: minmax(75px, 75px) repeat(38, minmax(min-content, max-content)) minmax(260px, 260px) / repeat(40, minmax(min-content, max-content));
         .grid-total-header {}
-        .grid-total-container {
-            height: 100vh;
-        }
+        .grid-total-container {}
         .grid-total-footer {}
+        
     }
 }
-
 
 /*--------------------------------------801PX >= 1200PX ---------------------------------------*/
 
