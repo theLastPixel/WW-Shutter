@@ -2,7 +2,9 @@
 @media screen and (min-width: 1201px) {
   .grid-total {
     display: grid;
-    grid-template: minmax(75px, 75px) repeat(38, minmax(min-content, max-content)) minmax(260px, 260px)/repeat(40, minmax(min-content, max-content)); } }
+    grid-template: minmax(75px, 75px) repeat(38, minmax(min-content, max-content)) minmax(260px, 260px)/repeat(40, minmax(min-content, max-content)); }
+    .grid-total .grid-total-container {
+      height: 100vh; } }
 
 /*--------------------------------------801PX >= 1200PX ---------------------------------------*/
 @media screen and (min-width: 801px) and (max-width: 1200px) {

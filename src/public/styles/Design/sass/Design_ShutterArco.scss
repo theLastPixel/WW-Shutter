@@ -2,25 +2,34 @@
     background-image: url('/media/Imagenes/gallery-bgedit.png');
     color: white;
     .subcontainer-shutterArco {
+        display: block;
         .subcontainer-shutterArco-description {
             h1 {
-                text-align: left;
                 font-size: 4vw;
+                text-align: left;
             }
             p {
-                //align-self: center; //CENTER VERTICAL TEXT
-                text-align: justify;
                 font-size: 2vw;
+                text-align: justify;
             }
         }
-    }
-    .subcontainer-shutterArco-imagenes {
-        justify-items: end;
-        img {
-            display: block;
-            width: 80%;
-            height: auto;
-            align-self: flex-start;
+        .subcontainer-shutterArco-imagenes {
+            justify-content: end;
+            justify-items: end;
+            justify-self: end;
+            align-content: flex-end;
+            align-items: flex-end;
+            align-self: flex-end;
+            img:nth-child(1) {
+                display: block;
+                width: 90%;
+                height: auto;
+            }
+            img:nth-child(2) {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
         }
     }
 }
