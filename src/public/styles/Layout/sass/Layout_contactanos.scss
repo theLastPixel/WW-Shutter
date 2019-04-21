@@ -1,30 +1,23 @@
-.grid-total-container {
-    background: rgb(0, 0, 0);
-    color: white;
-    .titulo {
-        grid-row: 4 / 6;
-        grid-column: 1 / -1;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        font-size: 3vw;
-    }
-    .img {
-        grid-row: 1 / -1;
-        grid-column: 1 / -1;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        img {
-            width: 80%;
-            height: auto;
+.grid-total{
+    .grid-total-container{
+        .subcontainer-contactanos{
+            grid-row: 3 / 39;
+            grid-column: 3 / 39;
+            display: grid;
+            grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+            grid-gap: 0.5%;
+            .subcontainer-contactanos-mapa{
+            grid-row: 1 / -1;
+            grid-column: 1 / 18;
+            display: grid;
+            grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+            }
+            .subcontainer-contactanos-informacion{
+            grid-row: 1 / -1;
+            grid-column: 18 / -1;
+            display: grid;
+            grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+            }
         }
     }
 }
