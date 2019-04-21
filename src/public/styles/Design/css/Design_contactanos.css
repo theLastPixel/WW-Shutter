@@ -1,6 +1,48 @@
-.subcontainer-contactanos {
-  background: blueviolet; }
-  .subcontainer-contactanos .subcontainer-contactanos-mapa {
-    background: red; }
-  .subcontainer-contactanos .subcontainer-contactanos-informacion {
-    background: #444444; }
+.grid-total-container {
+  background-image: url("/media/Imagenes/gallery-bgedit.png");
+  color: white; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-direccion .subcontainer-contactanos-direccion-texto h1 {
+    text-align: left;
+    font-size: 4vw; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-direccion .subcontainer-contactanos-direccion-texto p {
+    text-align: justify;
+    font-size: 2vw; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-direccion .subcontainer-contactanos-direccion-mapa {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-direccion .subcontainer-contactanos-direccion-mapa > * {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-nombre h2 {
+    text-align: left;
+    font-size: 3vw; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-nombre p {
+    text-align: justify;
+    font-size: 2.5vw; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-telefono h2 {
+    text-align: left;
+    font-size: 3vw; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-telefono p {
+    text-align: justify;
+    font-size: 1.5vw; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-email h2 {
+    text-align: left;
+    font-size: 3vw; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-email p {
+    text-align: justify;
+    font-size: 2vw; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-redes h2 {
+    text-align: left;
+    font-size: 3vw; }
+  .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-redes i {
+    color: white;
+    font-size: 6vw; }
