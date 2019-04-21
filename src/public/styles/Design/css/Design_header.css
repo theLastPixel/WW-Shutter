@@ -1,21 +1,19 @@
-.navbar {
-  grid-row: 1/2;
-  grid-column: 1/-1;
-  /* box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75); */
+.grid-total .grid-total-header .navbar {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: .8vw; }
+  .grid-total .grid-total-header .navbar .container-fluid p {
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: .9vw; }
+  .grid-total .grid-total-header .navbar .container-fluid a {
+    color: white; }
+  .grid-total .grid-total-header .navbar .container-fluid i {
+    font-size: 2vw;
+    color: white; }
 
-.dropdown:hover > .dropdown-menu {
-  display: block; }
-
-.numcontact-txt {
-  position: relative;
-  top: 10px;
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: .9vw; }
-
-nav li .nav-link:hover {
+.navbar .nav-link:hover {
   text-decoration: none;
   border-top: 3px solid;
   border-color: #ff7b00;
