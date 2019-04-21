@@ -47,7 +47,7 @@ app.get('/shutter/Arco', (req, res) => {
     res.render('shutterArco');
 });
 
-/*TIPS*/
+/*CONSEJOS*/
 app.get('/consejos/consejo-1', (req, res) => {
     res.render('consejoUno');
 });
