@@ -1,22 +1,32 @@
 .grid-total-container {
-  background: black; }
-  .grid-total-container .titulo {
-    color: white;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    align-content: center;
-    align-items: center;
-    align-self: center;
-    font-size: 3vw; }
-  .grid-total-container .img {
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    align-content: center;
-    align-items: center;
-    align-self: center; }
-    .grid-total-container .img img {
-      width: 80%;
-      height: auto; }
+  background-image: url("/media/Imagenes/gallery-bgedit.png");
+  color: white; }
+  .grid-total-container .subcontainer-conocenos {
+    /*GRID GENTE*/
+    /*GRID GENTE*/
+    /*GRID GENTE*/
+    /*GRID GENTE*/ }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-nosotros h2 {
+      font-size: 2.5vw;
+      text-align: left; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-nosotros p {
+      font-size: 1.7vw;
+      text-align: justify; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-valores h2 {
+      font-size: 2.5vw;
+      text-align: left; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-valores p {
+      font-size: 1.7vw;
+      text-align: justify; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-mision h2 {
+      font-size: 2.5vw;
+      text-align: left; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-mision p {
+      font-size: 1.7vw;
+      text-align: justify; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-vision h2 {
+      font-size: 2.5vw;
+      text-align: left; }
+    .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-vision p {
+      font-size: 1.7vw;
+      text-align: justify; }

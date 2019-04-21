@@ -1,7 +1,22 @@
-.grid-total-container .titulo {
-  grid-row: 4 / 6;
-  grid-column: 1 / -1; }
-
-.grid-total-container .img {
-  grid-row: 1 / -1;
-  grid-column: 1 / -1; }
+.grid-total-container .subcontainer-conocenos {
+  grid-row: 3 / 39;
+  grid-column: 3 / 39;
+  display: grid;
+  grid-template: repeat(40, 1fr)/repeat(40, 1fr);
+  grid-gap: 0.5%;
+  /*GRID NOSOTROS*/
+  /*GRID VALORES*/
+  /*GRID MISION*/
+  /*GRID VISION*/ }
+  .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-nosotros {
+    grid-row: 1 / 10;
+    grid-column: 1 / -1; }
+  .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-valores {
+    grid-row: 10 / 20;
+    grid-column: 1 / -1; }
+  .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-mision {
+    grid-row: 20 / 30;
+    grid-column: 1 / -1; }
+  .grid-total-container .subcontainer-conocenos .subcontainer-conocenos-vision {
+    grid-row: 30 / -1;
+    grid-column: 1 / -1; }

@@ -1,6 +1,6 @@
 .grid-total-container {
     .subcontainer-shutterArco {
-        grid-row: 3 / 39;
+        grid-row: 2 / 39;
         grid-column: 3 / 39;
         display: grid;
         grid-template: repeat(40, 1fr) / repeat(40, 1fr);
@@ -10,12 +10,12 @@
             display: grid;
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
             h1 {
-                grid-row: 1 / 10;
+                grid-row: 1 / 5;
                 grid-column: 1 / -1;
             }
             p {
-                grid-row: 10 / -1;
-                grid-column: 1 / 38;
+                grid-row: 5 / -1;
+                grid-column: 1 / -1;
             }
         }
         .subcontainer-shutterArco-imagenes {
@@ -23,9 +23,13 @@
             grid-column: 23 / -1;
             display: grid;
             grid-template: repeat(40, 1fr) / repeat(40, 1fr);
-            img {
-                grid-row: 1 / -1;
-                grid-column: 1 / -1;
+            img:nth-child(1) {
+                grid-row: 1 / 22;
+                grid-column: 20 / -1;
+            }
+            img:nth-child(2) {
+                grid-row: 23 / -1;
+                grid-column: 15 / -1;
             }
         }
     }
