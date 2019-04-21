@@ -1,30 +1,59 @@
-.grid-total-container {
-    background: rgb(0, 0, 0);
-    color: white;
-    .titulo {
-        grid-row: 4 / 6;
-        grid-column: 1 / -1;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        font-size: 3vw;
-    }
-    .img {
-        grid-row: 1 / -1;
-        grid-column: 1 / -1;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        img {
-            width: 80%;
-            height: auto;
+.grid-total{
+    .grid-total-container{
+        .subcontainer-contactanos{
+            grid-row: 3 / 39;
+            grid-column: 3 / 39;
+            display: grid;
+            grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+            grid-gap: 2%;
+            .subcontainer-contactanos-direccion{
+                grid-row: 1 / -1;
+                grid-column: 18 / -1;
+                display: grid;
+                grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+                .subcontainer-contactanos-direccion-texto{
+                    grid-row: 1 / 12;
+                    grid-column: 1 / -1;
+                }
+                .subcontainer-contactanos-direccion-mapa{
+                    grid-row: 12 / -1;
+                    grid-column: 1 / -1;
+                }
+            }
+            .subcontainer-contactanos-informacion{
+                grid-row: 1 / -1;
+                grid-column: 1 / 18;
+                display: grid;
+                grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+                .subcontainer-contactanos-informacion-nombre{
+                    grid-row: 1 / 10;
+                    grid-column: 1 / -1;
+                }
+                .subcontainer-contactanos-informacion-telefono{
+                    grid-row: 10 / 20;
+                    grid-column: 1 / -1;
+                }
+                .subcontainer-contactanos-informacion-email{
+                    grid-row: 20 / 30;
+                    grid-column: 1 / -1;
+                }
+                .subcontainer-contactanos-informacion-redes{
+                    grid-row: 30 / -1;
+                    grid-column: 1 / -1;
+                    h2{
+                        grid-row: 1 / 34;
+                        grid-column: 1 / -1;
+                    }
+                    .fa-facebook-square{
+                        grid-row: 34 / -1;
+                        grid-column: 2 / 8;
+                    }
+                    .fa-instagram{
+                        grid-row: 34 / -1;
+                        grid-column: 10 / 16;
+                    }
+                }
+            }
         }
     }
 }
