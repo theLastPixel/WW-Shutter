@@ -1,5 +1,7 @@
 .grid-total-footer {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: #1e1e20;
+  color: white; }
 
 .container-company p {
   font-size: .9vw;

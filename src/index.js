@@ -25,10 +25,6 @@ app.get('/contactanos', (req, res) => {
     res.render('contactanos');
 });
 
-app.get('/galeria', (req, res) => {
-    res.render('galeria');
-});
-
 app.get('/', (req, res) => {
     res.render('index');
 });
@@ -63,6 +59,63 @@ app.get('/nosotros/conocenos', (req, res) => {
 
 app.get('/nosotros/nuestroEquipo', (req, res) => {
     res.render('nuestroEquipo')
+});
+
+/*Galeria*/
+app.get('/galeria-1', (req, res) => {
+    res.render('galeria-1');
+});
+
+app.get('/galeria-2', (req, res) => {
+    res.render('galeria-2');
+});
+
+app.get('/galeria-3', (req, res) => {
+    res.render('galeria-3');
+});
+
+app.get('/galeria-4', (req, res) => {
+    res.render('galeria-4');
+});
+
+app.get('/galeria-5', (req, res) => {
+    res.render('galeria-5');
+});
+
+app.get('/galeria-6', (req, res) => {
+    res.render('galeria-6');
+});
+
+app.get('/galeria-7', (req, res) => {
+    res.render('galeria-7');
+});
+
+app.get('/galeria-8', (req, res) => {
+    res.render('galeria-8');
+});
+
+app.get('/galeria-9', (req, res) => {
+    res.render('galeria-9');
+});
+
+app.get('/galeria-10', (req, res) => {
+    res.render('galeria-10');
+});
+
+app.get('/galeria-11', (req, res) => {
+    res.render('galeria-11');
+});
+
+app.get('/galeria-12', (req, res) => {
+    res.render('galeria-12');
+});
+
+app.get('/galeria-13', (req, res) => {
+    res.render('galeria-13');
+});
+
+app.get('/galeria-14', (req, res) => {
+    res.render('galeria-14');
 });
 
 //Static Files
