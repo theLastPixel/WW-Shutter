@@ -1,31 +1,32 @@
-.grid-total{
-    .grid-total-header{
-        .navbar{
+.grid-total {
+    .grid-total-header {
+        .navbar {
+            background: rgb(30, 30, 32);
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-size: .8vw;
-            .container-fluid{
-                .navbar-brand{
-                    img{}
+            .container-fluid {
+                .navbar-brand {
+                    img {}
                 }
-                p{
+                p {
                     position: relative;
                     top: 10px;
                     color: white;
                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                     font-size: .9vw;
                 }
-                button{}
-                .collapse{
-                    .navbar-nav{
-                        
-                    }
+                button {}
+                .collapse {
+                    .navbar-nav {}
                 }
-                a{
-                    color: white;
+                .navbar-collapse {}
+                a {
+                    color: rgb(0, 0, 0);
+                    font-size: .9vw;
                 }
-                i{
+                i {
                     font-size: 2vw;
-                    color: white;
+                    color: rgb(255, 255, 255);
                 }
             }
         }
@@ -33,12 +34,25 @@
 }
 
 .dropdown:hover>.dropdown-menu {
+    display: block;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
+
+.dropdown-item:hover {}
 
 .navbar .nav-link:hover {
     text-decoration: none;
     border-top: 3px solid;
     border-color: #ff7b00;
     transition: 0.5s;
+    font-size: .9vw;
 }
 
+nav li .nav-link:hover {
+    text-decoration: none;
+    border-top: 3px solid;
+    border-color: #ff7b00;
+    transition: 0.5s;
+    font-size: .9vw;
+}
