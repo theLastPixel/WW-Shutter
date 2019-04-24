@@ -33,8 +33,8 @@ app.get('/', (req, res) => {
 app.get('/shutter/Corrediza', (req, res) => {
     res.render('shutterCorrediza');
 });
-app.get('/shutter/Estandar', (req, res) => {
-    res.render('shutterEstandar');
+app.get('/shutter/Estandard', (req, res) => {
+    res.render('shutterEstandard');
 });
 app.get('/shutter/PuertaFrancesa', (req, res) => {
     res.render('shutterPuertaFrancesa');
