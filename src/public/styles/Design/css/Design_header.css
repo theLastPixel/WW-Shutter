@@ -8,6 +8,10 @@
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: .9vw; }
+  .grid-total .grid-total-header .navbar .container-fluid .collapse ul li button {
+    text-decoration: none;
+    background: transparent;
+    border: transparent; }
   .grid-total .grid-total-header .navbar .container-fluid a {
     color: black;
     font-size: .9vw; }

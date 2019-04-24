@@ -18,6 +18,15 @@
                 button {}
                 .collapse {
                     .navbar-nav {}
+                    ul {
+                        li {
+                            button {
+                                text-decoration: none;
+                                background: transparent;
+                                border: transparent;
+                            }
+                        }
+                    }
                 }
                 .navbar-collapse {}
                 a {
