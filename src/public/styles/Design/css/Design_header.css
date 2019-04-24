@@ -11,7 +11,8 @@
   .grid-total .grid-total-header .navbar .container-fluid .collapse ul li button {
     text-decoration: none;
     background: transparent;
-    border: transparent; }
+    border: transparent;
+    outline: none; }
   .grid-total .grid-total-header .navbar .container-fluid a {
     color: black;
     font-size: .9vw; }
