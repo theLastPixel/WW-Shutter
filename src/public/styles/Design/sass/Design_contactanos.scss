@@ -1,14 +1,13 @@
 .grid-total-container {
-    background-image: url('/media/Imagenes/gallery-bgedit.png');
     color: white;
-    .subcontainer-contactanos{
-        .subcontainer-contactanos-direccion{
+    .subcontainer-contactanos {
+        .subcontainer-contactanos-direccion {
             .subcontainer-contactanos-direccion-texto {
-                h1{
+                h1 {
                     text-align: left;
                     font-size: 4vw;
                 }
-                p{
+                p {
                     text-align: justify;
                     font-size: 2vw;
                 }
@@ -31,47 +30,46 @@
                 width: 100%;
             }
         }
-        .subcontainer-contactanos-informacion{
-            .subcontainer-contactanos-informacion-nombre{
-                h2{
+        .subcontainer-contactanos-informacion {
+            .subcontainer-contactanos-informacion-nombre {
+                h2 {
                     text-align: left;
                     font-size: 3vw;
                 }
-                p{
+                p {
                     text-align: justify;
                     font-size: 2.5vw;
                 }
             }
-            .subcontainer-contactanos-informacion-telefono{
-                h2{
+            .subcontainer-contactanos-informacion-telefono {
+                h2 {
                     text-align: left;
                     font-size: 3vw;
                 }
-                p{
+                p {
                     text-align: justify;
                     font-size: 1.5vw;
                 }
             }
-            .subcontainer-contactanos-informacion-email{
-                h2{
+            .subcontainer-contactanos-informacion-email {
+                h2 {
                     text-align: left;
                     font-size: 3vw;
                 }
-                p{
+                p {
                     text-align: justify;
                     font-size: 2vw;
                 }
             }
-            .subcontainer-contactanos-informacion-redes{
-                h2{
+            .subcontainer-contactanos-informacion-redes {
+                h2 {
                     text-align: left;
                     font-size: 3vw;
                 }
-                i{
+                i {
                     color: white;
                     font-size: 6vw;
                 }
-
             }
         }
     }

@@ -1,7 +1,6 @@
 /*-----------------------------------------------1201>------------------------------------------------*/
 .grid-total {
-  display: grid;
-  background: black; }
+  display: grid; }
 
 .grid-total-header {
   grid-row: 1 / 2;
