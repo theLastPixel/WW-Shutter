@@ -2,10 +2,21 @@
 const express = require('express');
 const expressLayout = require('express-ejs-layouts');
 const path = require('path');
+const http = require('http');
 
 //Initializations
 const app = express();
 app.use(expressLayout);
+const hostname = '127.0.0.1';
+const port = 3000;
+
+//Server
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello World\n');
+  });
+
 
 //Settings
 app.set('port', process.env.PORT || 5000);
@@ -126,3 +137,7 @@ app.use(express.static(path.join(__dirname + '/public')));
 app.listen(app.get('port'), () => {
     console.log('Server on port', app.get('port'));
 });
+
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+  });
