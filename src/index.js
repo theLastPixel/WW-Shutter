@@ -8,7 +8,7 @@ const http = require('http');
 const app = express();
 app.use(expressLayout);
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 80;
 
 //Server
 const server = http.createServer((req, res) => {
