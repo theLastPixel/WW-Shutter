@@ -12,6 +12,14 @@ app.set('port', process.env.PORT || 5000);
 app.set('views', path.join(__dirname) + '/views');
 app.set('view engine', 'ejs');
 
+//Static Files
+app.use(express.static(path.join(__dirname + '/public')));
+
+//Server is listening
+app.listen(app.get('port'), () => {
+    console.log('Server on port', app.get('port'));
+});
+
 //MiddleWares
 
 //Global Variables
@@ -116,13 +124,4 @@ app.get('/galeria-13', (req, res) => {
 
 app.get('/galeria-14', (req, res) => {
     res.render('galeria-14');
-});
-
-
-//Static Files
-app.use(express.static(path.join(__dirname + '/public')));
-
-//Server is listening
-app.listen(app.get('port'), () => {
-    console.log('Server on port', app.get('port'));
 });
