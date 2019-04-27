@@ -8,7 +8,7 @@ const http = require('http');
 const app = express();
 app.use(expressLayout);
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 2000;
 
 //Server
 const server = http.createServer((req, res) => {
@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
 
 
 //Settings
-app.set('port', process.env.PORT || 2000);
+app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname) + '/views');
 app.set('view engine', 'ejs');
 
