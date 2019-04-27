@@ -7,19 +7,19 @@ const path = require('path');
 //Initializations
 const app = express();
 app.use(expressLayout);
-// const hostname = '127.0.0.1';
-// const port = 8080;
+const hostname = '127.0.0.1';
+const port = 3000;
 
-//Server
-// const server = http.createServer((req, res) => {
-//     res.statusCode = 200;
-//     res.setHeader('Content-Type', 'text/plain');
-//     res.end('Hello World\n');
-//   });
+erver
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello World\n');
+  });
 
 
 //Settings
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 2000);
 app.set('views', path.join(__dirname) + '/views');
 app.set('view engine', 'ejs');
 
@@ -138,6 +138,6 @@ app.listen(app.get('port'), () => {
     console.log('Server on port', app.get('port'));
 });
 
-// server.listen(port, hostname, () => {
-//     console.log(`Server running at http://${hostname}:${port}/`);
-//   });
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
