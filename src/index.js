@@ -2,7 +2,7 @@
 const express = require('express');
 const expressLayout = require('express-ejs-layouts');
 const path = require('path');
-// const http = require('http');
+const http = require('http');
 
 //Initializations
 const app = express();
