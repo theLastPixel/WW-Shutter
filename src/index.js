@@ -8,20 +8,30 @@ const http = require('http');
 const app = express();
 app.use(expressLayout);
 const hostname = '127.0.0.1';
-const port = 2000;
-
-//Server
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello World\n');
-  });
+const port = 3000;
 
 
 //Settings
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname) + '/views');
 app.set('view engine', 'ejs');
+
+//Server
+// const server = http.createServer((req, res) => {
+//     res.statusCode = 200;
+//     res.setHeader('Content-Type', 'text/plain');
+//     res.end('Hello World\n');
+//   });
+
+  //Server is listening
+// app.listen(app.get('port'), () => {
+//     console.log('Server on port', app.get('port'));
+// });
+
+
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
 
 //MiddleWares
 
@@ -133,11 +143,3 @@ app.get('/galeria-14', (req, res) => {
 //Static Files
 app.use(express.static(path.join(__dirname + '/public')));
 
-//Server is listening
-app.listen(app.get('port'), () => {
-    console.log('Server on port', app.get('port'));
-});
-
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
-});
