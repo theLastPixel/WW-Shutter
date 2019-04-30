@@ -6,7 +6,7 @@
             display: grid;
             grid-template: repeat(20, 1fr)/repeat(20, 1fr);
             .logotipo {
-                grid-row: 3 / 10;
+                grid-row: 2 / 10;
                 grid-column: 9 / 13;
             }
             .carousel-inner {
@@ -15,6 +15,7 @@
                 .carousel-item {
                     img {}
                     .carousel-caption {
+                        grid-row: 10/12;
                         h5 {}
                     }
                 }

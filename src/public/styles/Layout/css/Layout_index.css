@@ -4,8 +4,10 @@
   display: grid;
   grid-template: repeat(20, 1fr)/repeat(20, 1fr); }
   .grid-total .grid-total-container .carousel .logotipo {
-    grid-row: 3 / 10;
+    grid-row: 2 / 10;
     grid-column: 9 / 13; }
   .grid-total .grid-total-container .carousel .carousel-inner {
     grid-row: 1 / -1;
     grid-column: 1 / -1; }
+    .grid-total .grid-total-container .carousel .carousel-inner .carousel-item .carousel-caption {
+      grid-row: 10/12; }
