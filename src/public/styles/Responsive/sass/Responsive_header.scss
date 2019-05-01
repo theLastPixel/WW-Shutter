@@ -1,0 +1,43 @@
+@media screen and (min-width: 0px) and (max-width: 750px) {
+    .grid-total {
+        .grid-total-header {
+            .navbar {
+                font-size: 2vw;
+                .container-fluid {
+                    .navbar-brand {
+                        img {}
+                    }
+                    p {
+                        font-size: 4vw;
+                    }
+                    button {
+                        color: rgb(255, 255, 255);
+                    }
+                    .collapse {
+                        .navbar-nav {}
+                        ul {
+                            font-size: 2.5vw;
+                            li {
+                                font-size: 2.5vw;
+                                button {}
+                            }
+                        }
+                    }
+                    .navbar-collapse {
+                        background: rgb(44, 44, 44);
+                    }
+                    a {
+                        font-size: 2.5vw;
+                    }
+                    i {
+                        font-size: 2.5vw;
+                    }
+                }
+            }
+        }
+    }
+    .dropdown:hover>.dropdown-menu {}
+    .dropdown-item:hover {}
+    .navbar .nav-link:hover {}
+    nav li .nav-link:hover {}
+}

@@ -1,7 +1,8 @@
 .grid-total {
     .grid-total-header {
+        background: rgb(34, 34, 36);
         .navbar {
-            background: rgb(30, 30, 32);
+            background: rgb(34, 34, 36);
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-size: 1.5vw;
             .container-fluid {
@@ -15,7 +16,10 @@
                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                     font-size: 1.5vw;
                 }
-                button {}
+                button {
+                    color: rgb(255, 255, 255);
+                    border-color: aliceblue;
+                }
                 .collapse {
                     .navbar-nav {}
                     ul {
