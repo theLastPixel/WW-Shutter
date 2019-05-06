@@ -2,10 +2,12 @@
   color: white; }
   .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description h1 {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 4vw; }
   .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-description .subcontainer-shutterCorrediza-description-text {
     justify-self: center;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7vw; }
   .grid-total-container .subcontainer-shutterCorrediza .subcontainer-shutterCorrediza-imagenes {
     justify-items: end; }

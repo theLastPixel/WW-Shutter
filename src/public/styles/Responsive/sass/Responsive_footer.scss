@@ -37,9 +37,11 @@
         }
         .container-company h2 {
             color: rgb(255, 115, 0);
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 5vw;
         }
         .container-company p {
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 4vw;
             text-align: center;
         }
@@ -51,9 +53,11 @@
         }
         .container-product h2 {
             color: rgb(255, 115, 0);
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 4vw;
         }
         .container-product p {
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 3vw;
         }
         /*LINKS*/
@@ -64,14 +68,17 @@
         }
         .container-links h2 {
             color: rgb(255, 115, 0);
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 4vw;
         }
         .container-links a {
             color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 3vw;
         }
         .container-links a:hover {
             color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 3vw;
         }
         /*CONTACT*/
@@ -81,9 +88,11 @@
         }
         .container-contact h2 {
             color: rgb(255, 115, 0);
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 4vw;
         }
         .container-contact p {
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 3vw;
         }
         /*LINEA*/
@@ -100,6 +109,7 @@
             grid-column: 1 / 30;
             h2 {
                 text-align: left;
+                font-family: Arial, Helvetica, sans-serif;
                 font-size: 4vw;
             }
         }

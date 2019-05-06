@@ -16,7 +16,7 @@
   grid-column: 21 / 40; }
 
 .grid-total-footer .container-linea {
-  grid-row: 11 / 12;
+  grid-row: 12 / 13;
   grid-column: 2 / 31; }
   .grid-total-footer .container-linea hr {
     background: white; }

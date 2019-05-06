@@ -25,7 +25,8 @@ body {
     max-width: 800px;
     margin: 25px auto;
     color: #888;
-    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    : 18px;
 }
 
 .tz-gallery {

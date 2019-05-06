@@ -2,9 +2,11 @@
   color: white; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-direccion .subcontainer-contactanos-direccion-texto h1 {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 4vw; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-direccion .subcontainer-contactanos-direccion-texto p {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-direccion .subcontainer-contactanos-direccion-mapa {
     position: relative;
@@ -23,25 +25,33 @@
     width: 100%; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-nombre h2 {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-nombre p {
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5vw; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-telefono h2 {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-telefono p {
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5vw; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-email h2 {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-email p {
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-redes h2 {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw; }
   .grid-total-container .subcontainer-contactanos .subcontainer-contactanos-informacion .subcontainer-contactanos-informacion-redes i {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 6vw; }

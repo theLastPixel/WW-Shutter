@@ -17,9 +17,11 @@
         width: 100%;
         height: auto; }
     .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-description h2 {
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 3vw;
       text-align: left; }
     .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-gente .subcontainer-nuestroEquipo-gente-description p {
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 1.7vw;
       text-align: justify; }
     .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad {
@@ -35,9 +37,11 @@
         width: 100%;
         height: auto; }
       .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad .subcontainer-nuestroEquipo-lealtad-description h2 {
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 3vw;
         text-align: left; }
       .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-lealtad .subcontainer-nuestroEquipo-lealtad-description p {
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 1.7vw;
         text-align: justify; }
     .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto {
@@ -54,9 +58,11 @@
           width: 100%;
           height: auto; }
       .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-description h2 {
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 3vw;
         text-align: left; }
       .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-respeto .subcontainer-nuestroEquipo-respeto-description p {
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 1.7vw;
         text-align: justify; }
     .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso {
@@ -73,8 +79,10 @@
           width: 100%;
           height: auto; }
       .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-description h2 {
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 3vw;
         text-align: left; }
       .grid-total-container .subcontainer-nuestroEquipo .subcontainer-nuestroEquipo-compromiso .subcontainer-nuestroEquipo-compromiso-description p {
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 1.7vw;
         text-align: justify; }

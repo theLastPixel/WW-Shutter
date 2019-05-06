@@ -1,11 +1,13 @@
 .container-conocenos {
-  grid-row: 3 / 35;
-  grid-column: 1 / -1;
-  background: black;
-  color: white;
-  display: grid;
-  grid-template: repeat(40, 1fr)/repeat(40, 1fr); }
-  .container-conocenos .titulo {
+    grid-row: 3 / 35;
+    grid-column: 1 / -1;
+    background: black;
+    color: white;
+    display: grid;
+    grid-template: repeat(40, 1fr)/repeat(40, 1fr);
+}
+
+.container-conocenos .titulo {
     grid-row: 4 / 6;
     grid-column: 1 / -1;
     text-align: center;
@@ -15,8 +17,11 @@
     align-content: center;
     align-items: center;
     align-self: center;
-    font-size: 3vw; }
-  .container-conocenos .img {
+    font-family: Arial, Helvetica, sans-serif;
+    : 3vw;
+}
+
+.container-conocenos .img {
     grid-row: 1 / -1;
     grid-column: 1 / -1;
     justify-content: center;
@@ -24,7 +29,10 @@
     justify-self: center;
     align-content: center;
     align-items: center;
-    align-self: center; }
-    .container-conocenos .img img {
-      width: 80%;
-      height: auto; }
+    align-self: center;
+}
+
+.container-conocenos .img img {
+    width: 80%;
+    height: auto;
+}

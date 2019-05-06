@@ -40,8 +40,10 @@
       text-align: center; }
     .grid-total-footer .container-company h2 {
       color: #ff7300;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 5vw; }
     .grid-total-footer .container-company p {
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 4vw;
       text-align: center; }
     .grid-total-footer .container-product {
@@ -50,8 +52,10 @@
       text-align: center; }
     .grid-total-footer .container-product h2 {
       color: #ff7300;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 4vw; }
     .grid-total-footer .container-product p {
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 3vw; }
     .grid-total-footer .container-links {
       grid-row: 11 / 14;
@@ -59,20 +63,25 @@
       text-decoration: none; }
     .grid-total-footer .container-links h2 {
       color: #ff7300;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 4vw; }
     .grid-total-footer .container-links a {
       color: white;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 3vw; }
     .grid-total-footer .container-links a:hover {
       color: white;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 3vw; }
     .grid-total-footer .container-contact {
       grid-row: 10 / 14;
       grid-column: 1 / -1; }
     .grid-total-footer .container-contact h2 {
       color: #ff7300;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 4vw; }
     .grid-total-footer .container-contact p {
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 3vw; }
     .grid-total-footer .container-linea {
       grid-row: 14 / 15;
@@ -84,6 +93,7 @@
       grid-column: 1 / 30; }
       .grid-total-footer .container-copyRight h2 {
         text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 4vw; }
     .grid-total-footer .container-facebook {
       grid-row: 15 / -1;
