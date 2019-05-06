@@ -57,3 +57,36 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+
+<script>
+    var arrLang = {
+        'es': {
+
+            'index-94': 'CORREDIZA',
+            'index-95': 'ARCO',
+            'index-96': 'STANDARD',
+            'index-97': 'PUERTA FRANCESA',
+            'index-98': 'STANDARD'
+        },
+
+        'en': {
+
+            'index-94': 'SLINDING',
+            'index-95': 'ARCH',
+            'index-96': 'STANDARD',
+            'index-97': 'FRENCH DOOR',
+            'index-98': 'STANDARD'
+        }
+
+    };
+
+    $(function() {
+        $('.translate').click(function() {
+            var lang = $(this).attr('id');
+            $('.lang').each(function(index, element) {
+                $(this).text(arrLang[lang][$(this).attr('key')]);
+            });
+        });
+    });
+</script>
