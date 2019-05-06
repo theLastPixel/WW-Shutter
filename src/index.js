@@ -6,6 +6,7 @@ const path = require('path');
 //Initializations
 const app = express();
 app.use(expressLayout);
+require('./js/translate/header');
 
 //Settings
 app.set('port', process.env.PORT || 5000);
