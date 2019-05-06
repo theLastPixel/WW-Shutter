@@ -127,6 +127,6 @@ app.get('/galeria-14', (req, res) => {
 });
 
 //catch all other routes
-app.get("*", function(req, res) {
+app.get('*', function(req, res) {
     res.send("Invalid Page");
 });
