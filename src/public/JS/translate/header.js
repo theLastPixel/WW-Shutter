@@ -31,7 +31,7 @@ var arrLang = {
         'contactanos-29': 'Redes sociales: ',
         'footer-30': 'Wesstwood Shutters',
         'footer-31': 'Nosotros nos dedicamos a trabajar la madera y convertirla en obra de arte, tenemos más de 17 años en el mercado con la fabricación de Shutter de la mejor calidad, mostrando los espacios en elegancia y comodidad en su hogar.',
-        'footer-32': 'Products',
+        'footer-32': 'Productos',
         'footer-33': 'Shutter corrediza',
         'footer-34': 'Shutter standar',
         'footer-35': 'Shutter puerta francesa',
