@@ -1,15 +1,11 @@
 .grid-total-container {
-    background-size: cover;
-    background-repeat: no-repeat;
     color: rgb(255, 255, 255);
-    display: grid;
-    grid-template: repeat(40, 1fr) / repeat(40, 1fr);
     .gallery-container {
-        grid-row: 2 / 33;
-        grid-column: 6 / 36;
+        grid-row: 1 / -1;
+        grid-column: 2 / 40;
     }
     .pagination {
-        grid-row: 34 / 40;
+        grid-row: 40 / -1;
         grid-column: 1 / -1;
     }
 }
