@@ -1,17 +1,17 @@
 @media screen and (min-width: 0px) and (max-width: 750px) {
   .grid-total .grid-total-header .navbar {
-    font-size: 2vw; }
+    font-size: 1.5vw; }
     .grid-total .grid-total-header .navbar .container-fluid p {
-      font-size: 4vw; }
+      font-size: 3.5vw; }
     .grid-total .grid-total-header .navbar .container-fluid button {
       color: white; }
     .grid-total .grid-total-header .navbar .container-fluid .collapse ul {
-      font-size: 2.5vw; }
+      font-size: 2vw; }
       .grid-total .grid-total-header .navbar .container-fluid .collapse ul li {
-        font-size: 2.5vw; }
+        font-size: 2vw; }
     .grid-total .grid-total-header .navbar .container-fluid .navbar-collapse {
       background: #2c2c2c; }
     .grid-total .grid-total-header .navbar .container-fluid a {
-      font-size: 2.5vw; }
+      font-size: 2vw; }
     .grid-total .grid-total-header .navbar .container-fluid i {
-      font-size: 2.5vw; } }
+      font-size: 2vw; } }
