@@ -3,13 +3,13 @@
   .grid-total .grid-total-header .navbar {
     background: #222224;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5vw; }
+    font-size: 1vw; }
     .grid-total .grid-total-header .navbar .container-fluid p {
       position: relative;
       top: 10px;
       color: white;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 1.5vw; }
+      font-size: 1vw; }
     .grid-total .grid-total-header .navbar .container-fluid button {
       color: white; }
     .grid-total .grid-total-header .navbar .container-fluid .collapse ul li button {
@@ -20,9 +20,9 @@
     .grid-total .grid-total-header .navbar .container-fluid a {
       color: black;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 1.5vw; }
+      font-size: 1vw; }
     .grid-total .grid-total-header .navbar .container-fluid i {
-      font-size: 2.5vw;
+      font-size: 2vw;
       color: white; }
 
 .dropdown:hover > .dropdown-menu {
@@ -36,7 +36,7 @@
   border-color: #ff7b00;
   transition: 0.5s;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5vw; }
+  font-size: 1vw; }
 
 nav li .nav-link:hover {
   text-decoration: none;
@@ -44,4 +44,4 @@ nav li .nav-link:hover {
   border-color: #ff7b00;
   transition: 0.5s;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5vw; }
+  font-size: 1vw; }

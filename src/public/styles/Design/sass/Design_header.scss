@@ -4,7 +4,7 @@
         .navbar {
             background: rgb(34, 34, 36);
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 1.5vw;
+            font-size: 1vw;
             .container-fluid {
                 .navbar-brand {
                     img {}
@@ -14,7 +14,7 @@
                     top: 10px;
                     color: white;
                     font-family: Arial, Helvetica, sans-serif;
-                    font-size: 1.5vw;
+                    font-size: 1vw;
                 }
                 button {
                     color: rgb(255, 255, 255);
@@ -36,10 +36,10 @@
                 a {
                     color: rgb(0, 0, 0);
                     font-family: Arial, Helvetica, sans-serif;
-                    font-size: 1.5vw;
+                    font-size: 1vw;
                 }
                 i {
-                    font-size: 2.5vw;
+                    font-size: 2vw;
                     color: rgb(255, 255, 255);
                 }
             }
@@ -61,7 +61,7 @@
     border-color: #ff7b00;
     transition: 0.5s;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 nav li .nav-link:hover {
@@ -70,5 +70,5 @@ nav li .nav-link:hover {
     border-color: #ff7b00;
     transition: 0.5s;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
