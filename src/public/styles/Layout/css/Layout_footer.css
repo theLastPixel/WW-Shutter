@@ -13,7 +13,7 @@
 
 .grid-total-footer .container-contact {
   grid-row: 2 / 11;
-  grid-column: 21 / 40; }
+  grid-column: 21 / 31; }
 
 .grid-total-footer .container-linea {
   grid-row: 12 / 13;
@@ -26,15 +26,15 @@
   grid-column: 2 / 15; }
 
 .grid-total-footer .container-facebook {
-  grid-row: 13 / 13;
+  grid-row: 13 / -1;
   grid-column: 29 / 37; }
 
 .grid-total-footer .container-instagram {
-  grid-row: 13 / 13;
+  grid-row: 13 / -1;
   grid-column: 30 / 38; }
 
 .grid-total-footer .container-twitter {
-  grid-row: 13 / 13;
+  grid-row: 13 / -1;
   grid-column: 38 / 39; }
 
 .grid-total-footer .container-mapa {
