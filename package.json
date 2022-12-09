@@ -20,7 +20,7 @@
     "homepage": "https://github.com/2314-RAustin/WW-Shutter#readme",
     "dependencies": {
         "ejs": "^2.6.1",
-        "express": "^4.16.4",
+        "express": "^4.17.3",
         "express-ejs-layouts": "^2.5.0",
         "forever": "^1.0.0",
         "node-sass": "^4.11.0",
